@@ -1,0 +1,42 @@
+Implement if's in modules/yolol/interpret.js
+
+
+----DESIGN FULL INTERFACE----
+
+Input: YOLEX (mix of yolol & our expansions)
+Input2: YOLOL cmdline
+
+req
+    Linter!!
+
+    YOLEX "file" => [Yolex lines]
+    Yolex line => yolol line
+    Yolol line -> yolol line (optimiser)
+
+    yolol lexer
+    yolol parser
+    yolol interpreter
+
+    - KEVIN
+        - YololDevice interface
+            - yololChip
+            - yololMemoryChip
+
+            - yololGeneric, can be set up as:
+                - button
+                - RadioTransmitter \__ Assumed that these are pointed at eachother  
+                - RadioReciever    /
+                - Text panel
+
+                - Rotor
+                - Slider
+
+                - power stuff
+                
+                --rest of https://wiki.starbasegame.com/index.php/Devices_and_machines
+
+
+        - YololNetwork
+
+implement in TS w/ actual clases / ES6 modules  (do this in KEVIN repo)
+

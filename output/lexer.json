@@ -1,0 +1,56 @@
+[
+    {
+        "type": 3,
+        "subtype": 2,
+        "value": "a",
+        "pos": {
+            "l": 0,
+            "c": 0
+        }
+    },
+    {
+        "type": 0,
+        "subtype": 1,
+        "value": "=",
+        "pos": {
+            "l": 0,
+            "c": 1
+        }
+    },
+    {
+        "type": 4,
+        "subtype": 1,
+        "value": "sin",
+        "pos": {
+            "l": 0,
+            "c": 2
+        }
+    },
+    {
+        "type": 2,
+        "subtype": 0,
+        "value": "(",
+        "pos": {
+            "l": 0,
+            "c": 5
+        }
+    },
+    {
+        "type": 3,
+        "subtype": 1,
+        "value": "90",
+        "pos": {
+            "l": 0,
+            "c": 6
+        }
+    },
+    {
+        "type": 2,
+        "subtype": 1,
+        "value": ")",
+        "pos": {
+            "l": 0,
+            "c": 8
+        }
+    }
+]

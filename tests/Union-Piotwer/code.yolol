@@ -1,0 +1,19 @@
+j=:l z=:r w=:l
+j-- n++
+if j!="" then goto 2 end
+z-- m++
+if z!="" then goto 4 end
+j=:l k=:l z=:r x=:r
+k=k---k j=j-k v++
+b++ :l=:l-k
+if b!=n then goto 8 end b=0 :l=:l+k k=j if v!=n then goto 7 end
+x=x---x z=z-x d++
+a++ :r=:r-x
+if a!=m then goto 11 end a=0 :r=:r+x x=z if d!=m then goto 10 end
+j=w k=w b=0 d=0 m=0 n=0 v=0 a=0
+k=k---k :r=:r-k j=j-k k=j
+if j!="" then goto 14 end
+s=:r+:l o=""
+o+=s---s o+=s---s o+=s---s o+=s---s o+=s---s o+=s---s o+=s---s goto 17
+:i=o :done=1
+goto 1

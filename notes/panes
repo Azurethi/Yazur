@@ -1,0 +1,26 @@
+Editor
+    - tabs
+    - main Editor
+    - "bottom box"
+        - Tick queue viewer
+        - network events
+        - Debug output
+
+Vars & fields
+    - include var map (unsquashed -> squashed)
+
+Network structure
+
+command bar
+    - new device
+    - run
+    - step network
+    - step chip
+    
+    - save
+        - code
+        - state
+        - all
+    - load
+
+- debug tools need to go somewhere, but we'll do these later
