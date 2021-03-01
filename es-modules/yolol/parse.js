@@ -1,10 +1,6 @@
-"use strict";
-module.exports=(lexed)=>{
-    return claim(lexed);
-}
+import * as opPrec from './lang/operatorPrecedence.json';
 
-const opPrec = require('./lang/operatorPrecedence.json');
-function claim(lexed){
+export function claim(lexed) {
     var depth = 0;
     var ifDepth=0;
     var priority = [];
@@ -36,7 +32,7 @@ function claim(lexed){
                     if(val=="end"){
                         ifDepth--;
                     }
-                } else if(typ==0 && val=="^"){  
+                } else if(typ==0 && val=="^"){
                     //adds a small priority bump to ^ for being further right
                     // (quick fix for ^'s right associotivity)
                     priority[i]={p:l-opPrec.indexOf(val)+depth+ifDepth+2*l+ i/lexed.length/2, i, /*REMOVE*/val};
@@ -53,7 +49,7 @@ function claim(lexed){
     //depth==o check\
 
     priority.sort((a,b)=>(b.p-a.p));
-    
+
     /*
     console.log("PRIO:")
     priority.forEach(v=>{
@@ -89,13 +85,13 @@ function claim(lexed){
                 var right=v.i+1<lexed.length?lexed[v.i+1]:{type:-2};
                 if(left.type==-1) left=lexed[v.i-2];
                 if(right.type==-1) right=lexed[v.i+2];
-                
+
                 if(left.type==3 && left.subtype==2){
                     collapseTokens(lexed,v.i,true,false,offsets,ti);
                 }else if(right.type==3 && right.subtype==2){
                     collapseTokens(lexed,v.i,false,true,offsets,ti);
                 }else{
-                    throw `Singleside token error! ${v.i}:${JSON.stringify(tok)}` 
+                    throw `Singleside token error! ${v.i}:${JSON.stringify(tok)}`
                 }
             }
         }else if(tok.type==4){  //sin cos ...
@@ -137,7 +133,7 @@ function collapseIf(lexed, i){
             }
         }while(i+ovrinfo.overwrite<lexed.length);
         if(!endedClean) throw "Missing end!"
-        
+
         var t = lexed[i];
         t.condition=cond;
         t.ifTrue=process.ifTrue;
@@ -150,7 +146,7 @@ function collapseIf(lexed, i){
 }
 
 //TODO check i+1 exist before r check
-function grabRight(lexed,i,ovrinfo){
+function grabRight(lexed, i, ovrinfo){
     var right=lexed[i+1];
     if(right.type==-1){
         right=lexed[i+2];
@@ -186,47 +182,47 @@ function collapseTokens(ordered, i, left, right, offsets, i_noOff){
     }
 
     if(
-        ( //bracket on left "(" or "( "
-            i>0 && ordered[i- ++li] && //if anything on left
+      ( //bracket on left "(" or "( "
+        i>0 && ordered[i- ++li] && //if anything on left
+        (
+          (//is bracket OR
+            ordered[i-li].type==2 && //bracket
+            ordered[i-li].subtype==0 //specifically opening bracket
+          ) ||
+          (
+            ordered[i-li].type==-1 && //is space AND
             (
-                (//is bracket OR
-                    ordered[i-li].type==2 && //bracket
-                    ordered[i-li].subtype==0 //specifically opening bracket
-                ) || 
-                (
-                    ordered[i-li].type==-1 && //is space AND
-                    (
-                        i>1 && ordered[i- ++li] && //Something 2 spaces left
-                        (
-                            ordered[i-li].type==2 &&   //is bracket
-                            ordered[i-li].subtype==0 //specifically opening bracket
-                        )
-                    )
-                )
+              i>1 && ordered[i- ++li] && //Something 2 spaces left
+              (
+                ordered[i-li].type==2 &&   //is bracket
+                ordered[i-li].subtype==0 //specifically opening bracket
+              )
             )
-        ) && ( //bracket on right
-            i<ordered.length-1 && ordered[i+ ++ri] && //anything on right
-            (
-                (   //Is bracket OR
-                    ordered[i+ri].type==2 && //bracket
-                    ordered[i+ri].subtype==1 //specifically closing bracket
-                ) || 
-                (
-                    ordered[i+ri].type==-1 && //Is space AND
-                    (
-                        i<ordered.length-2 && orderd[i+ ++ri] && (  //something 2 spaces right
-                            ordered[i+ri].type==2 && //is bracket
-                            ordered[i+ri].subtype==1 //specifically closing bracket
-                        )
-                    )
-                )
-            )
+          )
         )
-    ){  
+      ) && ( //bracket on right
+        i<ordered.length-1 && ordered[i+ ++ri] && //anything on right
+        (
+          (   //Is bracket OR
+            ordered[i+ri].type==2 && //bracket
+            ordered[i+ri].subtype==1 //specifically closing bracket
+          ) ||
+          (
+            ordered[i+ri].type==-1 && //Is space AND
+            (
+              i<ordered.length-2 && orderd[i+ ++ri] && (  //something 2 spaces right
+                ordered[i+ri].type==2 && //is bracket
+                ordered[i+ri].subtype==1 //specifically closing bracket
+              )
+            )
+          )
+        )
+      )
+    ){
         leftOff=li;
         overwrite=li+ri+1
     }
-    
+
     var t = ordered[i];
     if(t.type!=3){
         t.left = left;
