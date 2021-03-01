@@ -26,9 +26,9 @@ var myMemoryChip = new Yazur.mChip(
 
 //Executing 100 ticks on the network:
 for(var i=0; i<100; i++){
-  myYololNetwork.queueTick_random();
-  //or myYololNetwork.queueTick(); if you want the devices to execute in the order they were added
-  myYololNetwork.doTick();
+    myYololNetwork.queueTick_random();
+    //or myYololNetwork.queueTick(); if you want the devices to execute in the order they were added
+    myYololNetwork.doTick();
 }
 
 ```
