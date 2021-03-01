@@ -18,7 +18,7 @@ var myYololChip = new Yazur.yChip(
     myYololNetwork    //The network manager to subscribe to
 );
 
-var myMemoryChip = var memchip = new Yazur.mChip(
+var myMemoryChip = new Yazur.mChip(
       ["x", "y", "z"],//Array of global field names (without their ":")
       "root",         //the subnet id this chip should listen on
       myYololNetwork  //The network manager to subscribe to
