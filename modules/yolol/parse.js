@@ -19,9 +19,14 @@ function claim(lexed){
         if(typ!=3 && typ!=-1 && typ!=2 /*&& typ!=5 && typ!=4*/){  //Dont prioritise values, whitespace, brackets, comments or keywords
             var prev=(i-1)>0?lexed[i-1]:{type:-2};
             if(prev.type==-1) prev=(i-2)>0?lexed[i-2]:{type:-2};
-            if(val=="-" && !(prev.type==3 || (prev.type==2 && prev.subtype==1) || prev.type==1)){ //if - op & lefthand not return or == value
-                priority[i]={p:l-opPrec.indexOf('!')+depth+ifDepth+2*l, i, /*REMOVE*/val}; //is negation op, so higher prec
-                lexed[i]['negate'] = true;
+            if(val=="-"){
+                if(!(prev.type==3 || (prev.type==2 && prev.subtype==1) || prev.type==1)){   //if - op & lefthand not return or == value
+                    priority[i]={p:l-opPrec.indexOf('!')+depth+ifDepth+2*l, i, /*REMOVE*/val}; //is negation op, so higher prec
+                    lexed[i]['negate'] = true;
+                } else {
+                    //give subtract same priority as +
+                    priority[i]={p:l-opPrec.indexOf("+")+depth+ifDepth+2*l- i/lexed.length/2, i, /*REMOVE*/val};
+                }
             } else {
                 if(typ==4){
                     if(val=="goto"){
@@ -46,6 +51,7 @@ function claim(lexed){
                 }
             }
         } else if(typ==3) { //Need type==2?
+            
             priority[i]={p:l-opPrec.indexOf('++')+depth+ifDepth+3*l,i, /*REMOVE*/val};
         }
         if(typ==2 && styp==1) depth-=l;
