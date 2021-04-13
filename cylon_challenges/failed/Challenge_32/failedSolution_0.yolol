@@ -1,0 +1,25 @@
+i=:a x=i%60m=(i-x)/60i-=m*60x=m%60h=(m-x)/60m-=h*60a=" and "
+x=h%24d=(h-x)/24h-=d*24x=d%365y=(d-x)/365d-=y*365o=""c=", "
+b=" second"x/=y o=y+" year"if(y>1)theno+="s"end
+x/=d if(y>0)then o+=c end o+=d+" day"if(d>1)theno+="s"end
+x/=h if(y>0)or(d>0)thenif(m<1)and(i<1)theno+=a else o+=c endend
+x/=h o+=h+" hour"if(h>1)theno+="s"end
+x/=m if(y>0)or(d>0)or(h>0)thenif(i<1)then o+=a else o+=c endend
+x/=m o+=m+" minute"if(m>1)theno+="s"end
+x/=i if(m>0)or(h>0)or(d>0)theno+=a end o+=i+b if(i>1)theno+="s"end
+:o=o goto++:done
+
+//Submission to Cylon challenge Time And Relative Formatting In Strings (32)
+
+//Given a length of time in seconds output a human readable string.
+//
+The string must be have comma separated sections for years, days, hours, minutes and seconds parts (the final part should use `and` instead of a comma). If there are zero of a given unit it must be skipped. If there is only one of a unit it must not be pluralised.
+
+For the purpose of this challenge there are always exactly:
+ - 365 days in a year
+ - 24 hours in a day
+ - 60 minutes in an hour
+ - 60 seconds in a minute
+
+//Fail exception: "Malformed condition"
+

@@ -1,0 +1,12 @@
+:o="" a=:a c=a---a n=0
+n++ x=a---a if x!=c thengoto4end n++ x=a---a goto2+(x!=c)*2
+if n>1then:o=n+c+:o else:o=c+:o end c=x n=0 :done=1 goto1
+if n>1then:o=n+c+:o else:o=c+:o end c=x n=1 x=a---a goto2+(x!=c)*2
+if n>1then:o=n+c+:o else:o=c+:o end c=x n=0 :done=1 goto1
+
+//Submission to Cylon challenge Run Length Encoding (36)
+
+//Compress a string by replacing runs of repeated characters with the length of the run plus the character
+
+//Fail exception: "Malformed condition"
+

@@ -1,0 +1,10 @@
+c=:c e=:e f=:f g=:g h=:h z=:a if:b<z thenz=:b endif:d<z thenz=:d end
+ifc<z thenz=c endife<z thenz=e endiff<z thenz=f endif:i<z thenz=:i end
+ifg<z thenz=g endifh<z thenz=h endif:j<z thenz=:j end:o=z goto++:done
+
+//Submission to Cylon challenge How Low Does It Go? (12)
+
+//Select the smallest of 10 numbers
+
+//Fail exception: "Malformed condition"
+

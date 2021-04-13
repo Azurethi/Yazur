@@ -1,0 +1,37 @@
+r=:a0 a1=:a1 a2=:a2 b0=:b0 s=:b1 b2=:b2
+c0=:c0 c1=:c1 p=:c2 c5=0v=0n=0z=0o=p+c1+c0+b2+s+b0+a2+a1+r
+x=0k=o---o n++ goto(k==" ")*(7+n)+6*(k=="X")+7*(k=="O")
+l=""n++ z++ if(z>8)thenv=1z=1end goto7+z
+
+x=21goto7+n
+x=30goto7+n
+ifn<10thena=x goto3end y=a+b+c u=r j=a1 m=a2 q="a0"w="a1"t="a2"goto16
+ifn<10thenb=x goto3end y=d+e+f u=b0 j=s m=b2 q="b0"w="b1"t="b2"goto16
+ifn<10thenc=x goto3end y=g+h+i u=c0 j=c1 m=p q="c0"w="c1"t="c2"goto16
+ifn<10thend=x goto3end y=a+d+g u=r j=b0 m=c0 q="a0"w="b0"t="c0"goto16
+ifn<10thene=x goto3end y=b+e+h u=a1 j=s m=c1 q="a1"w="b1"t="c1"goto16
+ifn<10thenf=x goto3end y=c+f+i u=a2 j=b2 m=p q="a2"w="b2"t="c2"goto16
+ifn<10theng=x goto3end y=a+e+i u=r j=s m=p q="a0"w="b1"t="c2"goto16
+ifn<10thenh=x goto3end y=c+e+g u=a2 j=s m=c0 q="a2"w="b1"t="c0"goto16
+ifn<10theni=x goto3end l=m+j+u goto4+13*((y==42)+(y==60)*(v==1))
+r=l---l c5++ if(r==" ")then goto17+c5 end goto17
+:o=q goto++:done
+:o=w goto++:done
+:o=t goto++:done
+
+//Submission to Cylon challenge Noughts And Crosses (Fixed) (48)
+
+//Play the next move in a game of Noughts and Crosses.
+//
+You are "X". The inputs representing the board are each "X", "O" or " ":
+
+```:a0 :a1 :a2
+:b0 :b1 :b2
+:c0 :c1 :c2```
+
+
+Play the move which wins the game for you (first priority) or stops an immediate win by your opponent (second priority). Put into `:o` the location ("a0", "a1", "a2", "b0", "b1", "b2", "c0", "c1" or "c2") where you wish to play..
+This challenge will present inputs in fields `:a0`, `:a1`, `:a2`, `:b0`, `:b1`, `:b2`, `:c0`, `:c1` & `:c2`.
+
+//Fail exception: "Malformed condition"
+

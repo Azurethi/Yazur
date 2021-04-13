@@ -1,0 +1,10 @@
+a=""b=a if:a-:b==:a then :o=:a:done++goto1 end
+a=:a---:a+a b=a-:b ifb!=a thena=:c+a-:b endgoto2+(:a=="")
+:o=a:done++a=""b=a goto1
+
+//Submission to Cylon challenge Find and Replace (34)
+
+//Replace all instances of `b` with `c` in `a`.
+
+//Fail exception: "Failed test case"
+

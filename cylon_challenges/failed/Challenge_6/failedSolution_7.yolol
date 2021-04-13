@@ -1,0 +1,9 @@
+o=:op
+n=:a+:b p=:op:o=(n>0)*(p==o)+(n>1)*(p<o)+(n==1)*(p>o):done=1goto2
+
+//Submission to Cylon challenge Do The Logic Dance (6)
+
+//Perform the `or`, `and`, `xor`, `nor`, `nand`, `eq` and `neq` logical operations on input data.
+
+//Fail exception: "Failed test case"
+

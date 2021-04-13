@@ -1,0 +1,12 @@
+l=:l o=""r=:r i=l---l ifr!=r-i theno=i end j=l---l a/=r!=r-j o=j+o
+k=l---l m=l---l n=l---l ifr!=r-k theno=k+(o-k)end a/=r!=r-m o=m+(o-m)
+ifr!=r-n theno=n+(o-n)end p=l---l q=l---l s=l---l a/=r!=r-p o=p+(o-p)
+ifr!=r-q theno=q+(o-q)end t=l---l u=l---l a/=r!=r-s o=s+(o-s)
+ifr!=r-t theno=t+(o-t)endifr!=r-u theno=u+(o-u)end:i=o:done=1goto1
+
+//Submission to Cylon challenge Intersection (2)
+
+//Find the intersection of the input strings
+
+//Fail exception: "Failed test case"
+

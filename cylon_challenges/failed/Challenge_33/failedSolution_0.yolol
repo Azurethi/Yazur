@@ -1,0 +1,28 @@
+a="13 "b="31 "c="12 "d="21 "e="23 "f="32 "
+a2=c+a+e b2=f+b+d c2=a+c+f d2=e+d+b e2=d+e+a f2=b+f+c
+a3=c2+a+e2 b3=f2+b+d2 c3=a2+c+f2 d3=e2+d+b2 e3=d2+e+a2 f3=b2+f+c2
+a4=c3+a+e3 b4=f3+b+d3 c4=a3+c+f3 d4=e3+d+b3 e4=d3+e+a3 f4=b3+f+c3
+a5=c4+a+e4 b5=f4+b+d4 c5=a4+c+f4 d5=e4+d+b4 e5=d4+e+a4 f5=b4+f+c4
+a6=c5+a+e5 b6=f5+b+d5 c6=a5+c+f5 d6=e5+d+b5 e6=d5+e+a5 f6=b5+f+c5
+a7=c6+a+e6 b7=f6+b+d6 c7=a6+c+f6 d7=e6+d+b6 e7=d6+e+a6 f7=b6+f+c6
+a8=c7+a+e7 c8=a7+c+f7 d8=e7+d+b7 e8=d7+e+a7 f8=b7+f+c7
+a9=c8+a+e8 c9=a8+c+f8 e9=d8+e+a8 aa=c9+a+e9
+if :i>1 then goto 9+:i end:o=a:o--:done=1goto10
+:o=a2:o--:done=1goto10
+:o=a3:o--:done=1goto10
+:o=a4:o--:done=1goto10
+:o=a5:o--:done=1goto10
+:o=a6:o--:done=1goto10
+:o=a7:o--:done=1goto10
+:o=a8:o--:done=1goto10
+:o=a9:o--:done=1goto10
+:o=aa:o--:done=1goto10
+
+//Submission to Cylon challenge Tower Of Hanoi (33)
+
+//Solve the Tower of Hanoi in the minimum number of moves.
+//
+The input (:i) is the height of the stack. The rods are numbered 1,2 and 3. The stack must be moved from rod 1 to rod 3 using rod 2 as required. Only one disk can be moved at a time and the output (`:o`) is a space separated list of the moves giving the source rod and the destination rod for that move.
+
+//Fail exception: "Tried to assign non-variable"
+

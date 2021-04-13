@@ -1,0 +1,8 @@
+:o=12.9goto:done++
+
+//Submission to Cylon challenge Log2 Approximation (19)
+
+//Calculate `Log2(:a)` as accurately as possible, more accurate answers will score higher
+
+//Fail exception: "Failed test case"
+

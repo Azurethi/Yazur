@@ -1,0 +1,27 @@
+j="."k="XX"b=:a1 c=:a2 d=:b0 e=:b1 f=:b2 g=:c0 h=:c1 i=:c2 goto2+(e>j)
+z/=k-(d+f)-(b+h)-(:a0+i)-(c+g)+e<j:o="b1"goto:done++
+a=:a0 x=k-(b+c)-(d+g)-(e+i)+a>j:done=1-x:o="a0"goto(5-(c<j))*x
+z/=k-(a+b)-(f+i)-(g+e)+c<j:o="a2"goto:done++
+x=k-(h+i)-(a+d)-(e+c)+g>j:done=1-x:o="c0"goto(7-(i<j))*x
+z/=k-(g+h)-(c+f)-(a+e)+i<j:o="c2"goto:done++
+x=k-(a+c)-(e+h)+b>j:done=1-x:o="a1"goto(8+(d>j))*x
+z/=k-(e+f)-(a+g)+d<j:o="b0"goto:done++
+z/=k-(d+e)-(c+i)+f<j:o="b2"goto:done++
+:o="c1"ifk-(g+i)-(b+e)+h<j thengoto:done++end k="OO"goto2+(e>j)
+
+//Submission to Cylon challenge Noughts And Crosses (Fixed) (48)
+
+//Play the next move in a game of Noughts and Crosses.
+//
+You are "X". The inputs representing the board are each "X", "O" or " ":
+
+```:a0 :a1 :a2
+:b0 :b1 :b2
+:c0 :c1 :c2```
+
+
+Play the move which wins the game for you (first priority) or stops an immediate win by your opponent (second priority). Put into `:o` the location ("a0", "a1", "a2", "b0", "b1", "b2", "c0", "c1" or "c2") where you wish to play..
+This challenge will present inputs in fields `:a0`, `:a1`, `:a2`, `:b0`, `:b1`, `:b2`, `:c0`, `:c1` & `:c2`.
+
+//Fail exception: "Global var :a does not exist"
+

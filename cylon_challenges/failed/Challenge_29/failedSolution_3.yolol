@@ -1,0 +1,12 @@
+l="x1x16x37x58x89x145x42x20x"x="x"j=1000
+i=:i d+=(i%10-i%1)^2+(i/10%10-i/10%1)^2+(i/100%10-i/100%1)^2+i/j-i/j%1
+:done=l>l-(x+d+x)ifd<2then:o="Happy"else:o="Sad"end:i=d d=0goto2
+
+//Submission to Cylon challenge Smile (29)
+
+//Decide whether a number is happy or not.
+//
+To find out if a number is happy, replace the number by the sum of the squares of its digits. Repeat the process until either the number equals 1 or loops endlessly in a cycle that does not include 1 (it's actually 4, 16, 37, 58, 89, 145, 42, 20 - any of those may be the entry to the loop depending upon the starting number). When the process ends with 1 then the number is described as a happy number, otherwise, it is an unhappy (sad) number.
+
+//Fail exception: "Failed test case"
+

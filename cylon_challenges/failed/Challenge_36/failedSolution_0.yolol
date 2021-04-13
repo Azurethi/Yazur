@@ -1,0 +1,11 @@
+z="*"y="*1*"o=""b=1
+c=""c=:a---:a _/=c!=p p=c o=c+o c=""c=:a---:a _/=c!=p p=c o=c+o goto2
+b+=c==p c=""c=:a---:a x/=c==p b++c=""c=:a---:a x/=c==p goto3
+o=c+z+b+z-y-z-z+o p=c b=1if:a>0thengoto2end:o=o o=""p=0:done=1goto2
+
+//Submission to Cylon challenge Run Length Encoding (36)
+
+//Compress a string by replacing runs of repeated characters with the length of the run plus the character
+
+//Fail exception: "Malformed condition"
+

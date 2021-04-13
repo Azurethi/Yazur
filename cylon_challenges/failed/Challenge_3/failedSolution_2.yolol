@@ -1,0 +1,10 @@
+m=:l+:r:i=m
+c=m---m a=:i-c ifa!=a-c then:i-=c ifa-c!=a-c-c then:i-=c endendgoto2
+goto++:done
+
+//Submission to Cylon challenge Union (3)
+
+//Find the union of the input strings
+
+//Fail exception: "Failed test case"
+

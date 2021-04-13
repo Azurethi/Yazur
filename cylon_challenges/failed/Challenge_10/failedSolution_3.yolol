@@ -1,0 +1,8 @@
+b=n%2*n%3:o=1<n*(n<4orb*n%5*n%7*n%11*n%13orn++<14*b)goto:done++
+
+//Submission to Cylon challenge Sieve of Azurethi (10)
+
+//Counting up from 0 to 200, output a 1 to indicate if the number is prime.
+
+//Fail exception: "Tried to interpret bracket"
+

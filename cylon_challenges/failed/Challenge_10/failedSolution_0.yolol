@@ -1,0 +1,10 @@
+t="10100010101100"
+:o=t---t>0:done=1goto2
+i=:i:o=i%2*i%3*i%5*i%7*i%11*i%13>0:done=1goto3
+
+//Submission to Cylon challenge Sieve of Azurethi (10)
+
+//Counting up from 0 to 200, output a 1 to indicate if the number is prime.
+
+//Fail exception: "Failed test case"
+

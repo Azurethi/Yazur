@@ -41,14 +41,11 @@ function claim(lexed){
                     if(val=="end"){
                         ifDepth--;
                     }
-                } else if(typ==0 && val=="^"){  
-                    //adds a small priority bump to ^ for being further right
-                    // (quick fix for ^'s right associotivity)
-                    priority[i]={p:l-opPrec.indexOf(val)+depth+ifDepth+2*l+ i/lexed.length/2, i, /*REMOVE*/val};
-                }else{
-                    //small priority bump for being further left
-                    priority[i]={p:l-opPrec.indexOf(val)+depth+ifDepth+2*l- i/lexed.length/2, i, /*REMOVE*/val};    //=
-                }
+                } else {
+                    var assocBuf = i/lexed.length/2;
+                    if(typ==0 && val=="^") assocBuf=-assocBuf;
+                    priority[i]={p:l-opPrec.indexOf(val)+depth+ifDepth+2*l-assocBuf, i, /*REMOVE*/val};
+                } 
             }
         } else if(typ==3) { //Need type==2?
             
@@ -220,7 +217,7 @@ function collapseTokens(ordered, i, left, right, offsets, i_noOff){
                 (
                     ordered[i+ri].type==-1 && //Is space AND
                     (
-                        i<ordered.length-2 && orderd[i+ ++ri] && (  //something 2 spaces right
+                        i<ordered.length-2 && ordered[i+ ++ri] && (  //something 2 spaces right
                             ordered[i+ri].type==2 && //is bracket
                             ordered[i+ri].subtype==1 //specifically closing bracket
                         )

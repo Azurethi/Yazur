@@ -1,0 +1,11 @@
+n=:a m=:b%n n%=m m%=n n%=m m%=n n%=m m%=n n%=m m%=n n%=m m%=n n%=m
+ifn*m thenm%=n n%=m m%=n n%=m m%=n n%=m end:o=n+m<2goto:done++
+:o=n+m<2goto:done++
+
+//Submission to Cylon challenge Coprime Test (28)
+
+//Decide whether input numbers are coprimes or not!
+//Output 1 if they are coprimes, 0 if they are not
+
+//Fail exception: "Failed test case"
+

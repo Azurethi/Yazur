@@ -1,0 +1,17 @@
+i=29.48j=1.54k=99999l=99m=185199c="ft"d="in"e="km"f="m"g="nm"
+a=:a h=:b _/=a==:b:o=:v :done=1goto2
+b=:v*10*(((a==c)*i)+1)*(((a==d)*j)+1)*(((a==e)*k)+1)*(((a==f)*l)+1)
+b*=((a==g)*m)+1b/=((h==c)*i)+1b/=((h==d)*j)+1b/=((h==e)*k)+1
+b/=((h==f)*l)+1b/=((h==g)*m)+1b+=(b%0.01>0.004)/100:o=b/10:done=1goto2
+
+//Submission to Cylon challenge Unit Conversion Fixed (38)
+
+//Convert distances expressed as meters, kilometers, inches, nautical miles or feet.
+//There are:
+- 0.0254 meters in an inch.
+- 1852 meters in a nautical mile.
+- 1000 meters in a kilometer.
+- 0.3048 meters in a foot.
+
+//Fail exception: "Failed test case"
+

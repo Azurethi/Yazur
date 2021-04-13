@@ -1,0 +1,11 @@
+x=" 687 444 684 1.375 461 052 062 666 642 789 736 307 117 1.363 "+8/3
+x+=" 937 777 285 157 555 166 1.428 562 214 411 583 266 09 "+7/6w=" "
+:a/=:b:o=atan(:a)*174533/10^7+((x-(w+:a-"0."+w))>x)/10^3:done=1goto3
+x+=" 153 571 1.076 1.222 x":o=1.57:done=1goto3
+
+//Submission to Cylon challenge ATAN2 (7)
+
+//Calculate Atan2. If both inputs are zero return the maximum Yolol value.
+
+//Fail exception: "Failed test case"
+

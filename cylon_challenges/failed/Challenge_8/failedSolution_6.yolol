@@ -1,0 +1,10 @@
+:done=b<0:o=o+a o=""a=""
+o+=a:i-=a b=:i a=b---b goto3-2*(b<0)
+t=b---b ift<a thena=t endgoto3-(b<0)
+
+//Submission to Cylon challenge Basic Sorting (8)
+
+//Sort the characters in the input strings.
+
+//Fail exception: "Failed test case"
+

@@ -1,0 +1,16 @@
+goto2+(:d=="+")+2*(:d=="-")+3*(:d=="*")
+goto5+(:b=="+")+2*(:b=="-")+3*(:b=="*")
+r=:r-:e t=:a+:c y=:a-:c goto9
+r=:r+:e t=:a+:c y=:a-:c goto9
+r=:r/:e t=:a+:c y=:a-:c goto9
+r=:r b=:a+:c t=b+:e y=b-:e goto9
+r=:r b=:a-:c t=b+:e y=b-:e goto9
+r=:r b=:a*:c t=b+:e y=b-:e goto9
+if(t==r)then:o="+"else if(y==r)then:o="-"else:o="*"end end goto++:done
+
+//Submission to Cylon challenge What's That Operator (53)
+
+//Work out the operator which is missing. Calculation is always done from left to right. e.g. `(a opb c) opd e = r`, the possible operators are `+`, `*` and `-`.
+
+//Fail exception: "Malformed condition"
+

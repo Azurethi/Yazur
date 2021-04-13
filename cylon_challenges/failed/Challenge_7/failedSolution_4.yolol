@@ -1,0 +1,26 @@
+x=0 if :a==1 then if :b==11 or :b==16 or :b==19 then x=1 end end
+if :a==2 and (:b==3 or :b==17 or :b==12 or :b==7) then x=1 end
+if :a==3 and (:b==19 or :b==14) then x=1 end
+if :a==16 and :b==6 then x=1 end if :a==2 and :b==13 then x=1 end
+if :a==4 and (:b==7 or :b==15 or :b==13 or :b==6) then x=1 end
+if :a==5 and :b==9 then x=1 end if :a==9 and :b==14 then x=1 end
+if :a==6 and (:b==9 or :b==13) then x=1 end
+if :a==7 and (:b==17 or :b==6 or :b==12) then x=1 end
+if :a==8 and (:b==14 or :b==18) then x=1 end
+if :a==10 and (:b==15 or :b==7 or :b==18) then x=1 end
+if :a==15 and (:b==16 or :b==11 or :b==19) then x=1 end
+if :a==11 and (:b==16 or :b==9) then x=1 end
+if :a==14 and (:b==13 or :b==19 or :b==18) then x=1 end
+if :a==13 and :b==19 then x=1 end if :a==9 and :b==16 then x=1 end
+if :b==0 then x=2 :o=1.57 end
+if x==0 then :o=(ATAN (:a/:b))/57.295 end
+if x==1 then :o=(ATAN (:a/:b))/57.295 + 0.001 end
+:done=1
+ 
+
+//Submission to Cylon challenge ATAN2 (7)
+
+//Calculate Atan2. If both inputs are zero return the maximum Yolol value.
+
+//Fail exception: "TypeError: Cannot read property 'type' of undefined"
+

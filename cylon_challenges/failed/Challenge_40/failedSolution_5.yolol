@@ -1,0 +1,41 @@
+a="First"i=16b="a"
+q="a"i--:o="On the "+a+" day of Christmas":done=1b--a="Second"
+:o="My true love sent to me":done=1gotoi
+:o="Twelve Drummers Drumming,":done=1
+:o="Eleven Pipers Piping,":done=1q--a="Twelfth"
+:o="Ten Lords-a-Leaping,":done=1q--a="Eleventh"
+:o="Nine Ladies Dancing,":done=1q--a="Tenth"
+:o="Eight Maids-a-Milking,":done=1q--a="Ninth"
+:o="Seven Swans-a-Swimming,":done=1q--a="Eighth"
+:o="Six Geese-a-Laying,":done=1q--a="Seventh"
+:o="Five Gold Rings,":done=1q--a="Sixth"
+:o="Four Calling Birds,":done=1q--a="Fifth"
+:o="Three French Hens,":done=1q--a="Fourth"
+:o="Two Turtle Doves, and":done=1q--a="Third"
+:o="A Partridge in a Pear Tree.":done=1goto2
+
+//Submission to Cylon challenge It's Nearly Christmas (40)
+
+//Print out the complete Lyrics of the song "the twelve days of Christmas".
+//
+On the First day of Christmas
+My true love sent to me
+A Partridge in a Pear Tree.
+…
+On the Twelfth day of Christmas
+My true love sent to me
+Twelve Drummers Drumming,
+Eleven Pipers Piping,
+Ten Lords-a-Leaping,
+Nine Ladies Dancing,
+Eight Maids-a-Milking,
+Seven Swans-a-Swimming,
+Six Geese-a-Laying,
+Five Gold Rings,
+Four Calling Birds,
+Three French Hens,
+Two Turtle Doves, and
+A Partridge in a Pear Tree.
+
+//Fail exception: "Failed test case"
+

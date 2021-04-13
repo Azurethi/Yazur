@@ -1,0 +1,18 @@
+s="<"a=:i---:i a=:i---:i+a
+z=:i---:i a=z+a x/=(s==s-z) z=:i---:i a=z+a goto2+(s>s-z)
+b=:i---:i b=:i---:i+b
+z=:i---:i b=z+b x/=(s==s-z) z=:i---:i b=z+b goto4+(s>s-z)
+c=:i---:i c=:i---:i+c
+z=:i---:i c=z+c x/=(s==s-z) z=:i---:i c=z+c goto6+(s>s-z)
+d=:i---:i d=:i---:i+d
+z=:i---:i d=z+d e=:i x/=(s==s-z) z=:i---:i d=z+d e=:i goto8+(s>s-z)
+n=0ifa>b thent=a a=b b=t n++endifb>c thent=b b=c c=t n++end
+ifc>d thent=c c=d d=t n++endifd>e thent=d d=e e=t n++end goto9/(n>0)
+:o=a+b+c+d+e goto++:done
+
+//Submission to Cylon challenge Blame Nyefari (9)
+
+//Sort records in the input strings. Records are delimited by `<` and `>` characters
+
+//Fail exception: "Reached Tick limit on case 0"
+

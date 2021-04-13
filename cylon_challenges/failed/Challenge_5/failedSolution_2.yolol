@@ -1,0 +1,17 @@
+x="/+9876543210zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA"
+y="FEDC7654"t="FEBA7632"u="FDB97531":o=""a=:i
+a--a--l=10a--a--l=8a--a--l=6a--a--l=4a--a--l=2a--a--l=0goto3
+j=l%6q=""+10^l-1d=j/2a=:i+q
+i=a--a--a--a--a--a--a--a--a--a--a--a--i=i-a-q
+c=i---i n+=(8*(c>7)+4*(y>y-c)+2*(t>t-c)+(u>u-c))*16^j++goto6+(i<0)
+m+=4*j/6s=x b=n%64n=(n-b)/64e=""+10^(b%12)-10f=--m<1goto8+(b<12)+(b<1)
+s--s--s--s--s--s--s--s--s--s--s--s--b-=12goto8+(b<12)+(b<1)
+s--e--s--e--s--e--s--e--s--e--s--e--s--e--s--e--s--e--s--e--s--
+if0<d--thens+="="end q=""k=a<0:o=s---s+:o:done=f*k j=0goto7-2*f-3*f*k
+
+//Submission to Cylon challenge Base Conversion (5)
+
+//Convert a string of hexadecimal into a string of base64
+
+//Fail exception: "Malformed condition"
+

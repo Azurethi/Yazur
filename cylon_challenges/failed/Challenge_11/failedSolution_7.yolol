@@ -1,0 +1,11 @@
+w=""
+w+=:i:o=""if:r==""then:done=1goto2end 
+x=w y=w a=:r---:r y-=a z=x-y if(z!="")then:o=a+:o w-=a end goto3
+:done=1goto2
+
+//Submission to Cylon challenge Basic Warehouse Management (11)
+
+//Items in the warehouse are represented by letters. Each tick `:i` will specify what items are being added to the warehouse and `:r` will specify a request for items from the warehouse.  You must output which items in the request string are available in the warehouse into `:o` and then remove the items from the warehouse. 
+
+//Fail exception: "Malformed condition"
+

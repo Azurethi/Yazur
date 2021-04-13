@@ -1,0 +1,9 @@
+a=3.14b=24 c=720 d=40320 e=3628800 f=360 g=180
+i=(:i%f)*a i=i/g-a:o=-1+i^2/2-i^4/b+i^6/c-i^8/d+i^10/e:done=1goto2
+
+//Submission to Cylon challenge Estimate Cosine (39)
+
+//Calculate the cosine of an input number
+
+//Fail exception: "Failed test case"
+

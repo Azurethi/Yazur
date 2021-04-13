@@ -1,0 +1,10 @@
+o=""i=:i+""v=i---i:o=1+v:done=i==""goto2-:done
+t=v v=i---i c=i==""n+=t==v ift!=v orc theno=n+1+t+o n=0end goto2+c
+o=(t!=v)-"0"+(v-t)+o:o=o:done++goto1
+
+//Submission to Cylon challenge Look And Say (49)
+
+//Given a number output a string that "describes" the number by saying what you see. e.g. `1` is "one one" and so results in `11`.
+
+//Fail exception: "Failed test case"
+

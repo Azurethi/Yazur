@@ -1,0 +1,9 @@
+a=:a r=a/561+5r=(a/(r*r)+2*r)/3r=(a/(r*r)+2*r)/3r=(a/(r*r)+2*r)/3
+:o=(a/(r*r)+2*r)/3goto:done++
+
+//Submission to Cylon challenge Not As Easy As It Sounds (Cube Root) (30)
+
+//Calculate the cube root of a number
+
+//Fail exception: "Failed test case"
+

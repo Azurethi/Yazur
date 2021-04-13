@@ -1,0 +1,25 @@
+x="/+9876543210zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA"
+u="+86420ywusqomkigecaYWUSQOMKIGECA"d="FDB97531"e="FEBA7632"
+v="/97531zxvtrpnljhfdbZXVTRPNLJHFDB"f="FEDC7654"g="FEDCBA98"b=""
+j=:i h=j a=x z=6 o=b w=0
+i=h k=b c=j---j i=h+0+0 k="=" c=j---j i=h+0 k=b c=j---j goto5 
+c=i---i if a!=x thengoto8 end t=u if d-c<d then t=v end goto10
+if k>b then o-- end :o=o+k if w%4 then :o+="==" end :done=1 goto4
+if d-c<d then a-- end t=a---a a--t=a---a+t a--
+t=a---a+t a--t=a---a+t a--t=a---a+t a--t=a---a+t a--goto9
+a=t z-- if e-c<e then a-- end t=a---a a--
+t=a---a+t a--t=a---a+t a--t=a---a+t a--t=a---a+t a--goto11
+a=t z-- if z==0 then o=a+o a=x z=6 w++ end if a!=x then goto14end
+t=u if f-c<f then t=v end goto16
+if f-c<f then a-- end t=a---a a--t=a---a+t a--
+t=a---a+t a--t=a---a+t a--t=a---a+t a--t=a---a+t a--goto15
+a=t z-- if g-c<g then a-- end t=a---a a--
+t=a---a+t a--t=a---a+t a--t=a---a+t a--t=a---a+t a--goto17
+a=t z-- if z==0 then o=a+o a=x z=6 w++ end goto6
+
+//Submission to Cylon challenge Base Conversion (5)
+
+//Convert a string of hexadecimal into a string of base64
+
+//Fail exception: "Malformed condition"
+

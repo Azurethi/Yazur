@@ -1,0 +1,16 @@
+al="a.-"b="b-..."c="c-.-."d="d-.."e="e."f="f..-."g="g--."h="h...."a=al
+i="i.."j="j.---"k="k-.-"l="l.-.."m="m--"n="n-."o="o---"p="p.--."a+=b+c
+q="q--.-"r="r.-."s="s..."t="t-"u="u..-"v="v...-"w="w.--"x="x-..-"a+=d
+y="y-.--"z="z--.."n0="0-----"n1="1.----"n2="2..---"n3="3...--"a+=e+f+g
+n4="4....-"n5="5....."n6="6-...."n7="7--..."n8="8---.."n9="9----."a+=h
+a+=i+j+k+l+m+n+o+p+q+r+s+t+u+v+w+x+y+z+n0+n1+n2+n3+n4+n5+n6+n7+n8+n9
+:o=""
+cl=:i---:i te=a-cl-al-b-c-d-e-f-g-h-i-j-k-l-m-n-o-p-q-r-s-t-u-v-w-x-y
+te=te-z-n0-n1-n2-n3-n4-n5-n6-n7-n8-n9:o=te+:o:done=:i==""goto8-:done
+
+//Submission to Cylon challenge Morse Encoding (50)
+
+//Convert a string into morse code
+
+//Fail exception: "Tried to assign non-variable"
+

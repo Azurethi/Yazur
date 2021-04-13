@@ -1,0 +1,8 @@
+:c=(174533*atan(:a/:b))/10^7+3.14*(:b<0)*((:a>0)-(:a<0))goto++:done
+
+//Submission to Cylon challenge Atan2 Take 2 (15)
+
+//Implement the Atan2 function. This is an approximation challenge - you will earn more points the more accurate your answer is
+
+//Fail exception: "Failed test case"
+

@@ -1,0 +1,8 @@
+s="7311 5 2"i=:i:o=s>s-i!=i%2*i%3*i%5*i%7*i%11*i%169goto:done++
+
+//Submission to Cylon challenge Sieve of Azurethi (10)
+
+//Counting up from 0 to 200, output a 1 to indicate if the number is prime.
+
+//Fail exception: "Failed test case"
+

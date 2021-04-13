@@ -1,0 +1,10 @@
+b=10+(:p>385)*5+(:p>1200)*5+(:p>2800)*5+(:p>5520)*5:o=0
+c=b*(b+1)*(2*b+1)/6d=:p/c-:p/c%1:p-=c*d:o+=d b--
+ifb<1thengoto:done++end goto2
+
+//Submission to Cylon challenge Santa Stacks (43)
+
+//When Santa delivers presents he always stacks them into perfect square based pyramids around the tree. Given a number of presents output how many pyramids Santa will have to construct.
+
+//Fail exception: "Failed test case"
+

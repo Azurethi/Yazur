@@ -1,0 +1,8 @@
+a=-137592/(:a+1168)+95b=(:a/a+a)/2c=(:a/b+b)/2:o=(:a/c+c)/2goto:done++
+
+//Submission to Cylon challenge Not As Easy As It Sounds (Sqrt) (24)
+
+//Estimate the square root of a number
+
+//Fail exception: "Failed test case"
+

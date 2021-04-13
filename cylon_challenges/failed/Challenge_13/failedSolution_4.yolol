@@ -1,0 +1,27 @@
+x="ZYPONMLKJI"w="XWVUPONMHGFE"v="XWTSPOLKHGDC"u="ZXVTRPNLJHFDB"r=26
+p="P"n=16 s=:s c=""z/=:k<1:c=s:done++goto2
+z=s---s b=(u-z<u)+2*(v-z<v)+4*(w-z<w)+8*(x-z<x)+(z>p)*n+:k goto5+b%r%n
+:c=c:done++goto2
+c="A"+(b%r<n)+"Q"-"A0"-"1Q"+c goto3
+c="B"+(b%r<n)+"R"-"B0"-"1R"+c goto3
+c="C"+(b%r<n)+"S"-"C0"-"1S"+c goto3
+c="D"+(b%r<n)+"T"-"D0"-"1T"+c goto3
+c="E"+(b%r<n)+"U"-"E0"-"1U"+c goto3
+c="F"+(b%r<n)+"V"-"F0"-"1V"+c goto3
+c="G"+(b%r<n)+"W"-"G0"-"1W"+c goto3
+c="H"+(b%r<n)+"X"-"H0"-"1X"+c goto3
+c="I"+(b%r<n)+"Y"-"I0"-"1Y"+c goto3
+c="J"+(b%r<n)+"Z"-"J0"-"1Z"+c goto3
+c="K"+c goto3
+c="L"+c goto3
+c="M"+c goto3
+c="N"+c goto3
+c="O"+c goto3
+c=p+c goto3
+
+//Submission to Cylon challenge Letter Salad (13)
+
+//Apply a Caesar cipher to the input strings (uppercase only)
+
+//Fail exception: "Tried to div non-number"
+

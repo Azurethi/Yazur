@@ -1,0 +1,27 @@
+i=""s=""l=0t="FEBA7632"u="FEDC7654"v="FDB97531"y=:i
+d=0p=3h=6i+=y---y i+=y---y i+=y---y i+=y---y i+=y---y i+=y---y goto2
+c=i---i d+=16^--h*(8*(c>7)+4*(u>u-c)+2*(t>t-c)+(v>v-c))goto3+(h<1)
+f=d%64^p g=(d-f)/64^p d=f z=g<52j=g%5k=6+(j<1)+(j<2)goto(g-j)*z/5+z+9
+:done=(++w>30):o=s goto5-4*(w>30)
+x--x--j-=2goto6+(j<2)+(j<1)
+x--
+s+=x---x l++j=2k=6goto4+((h+h%2)/2>--p)*((i==y)*((l%4>0)*15+3)-2)
+x=g-52+y k=6j=4-g%2goto8+12*(g>61)
+x="EDCBA"gotok
+x="JIHGF"gotok
+x="ONMLK"gotok
+x="TSRQP"gotok
+x="YXWVU"gotok
+x="dcbaZ"gotok
+x="ihgfe"gotok
+x="nmlkj"gotok
+x="srqpo"gotok
+x="xwvut"gotok
+x="+/=zy"gotok
+
+//Submission to Cylon challenge Base Conversion (5)
+
+//Convert a string of hexadecimal into a string of base64
+
+//Fail exception: "Reached Tick limit on case 0"
+

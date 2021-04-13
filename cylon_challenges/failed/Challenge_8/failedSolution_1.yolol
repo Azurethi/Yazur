@@ -1,0 +1,10 @@
+i=:i h=i---i r=""s=0e=""
+a=i---i ifa>h then s=1 r=a+r else r=h+r h=a end goto2+(i<0)
+e+=h i=r:o=e+i:done=1-s h=0if i>0then h=i---i end r=""goto1+(s-->0)
+
+//Submission to Cylon challenge Basic Sorting (8)
+
+//Sort the characters in the input strings.
+
+//Fail exception: "Malformed condition"
+

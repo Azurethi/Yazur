@@ -1,0 +1,11 @@
+a=:a*(:a>:b)+:b*(:b>:a)b=:a+:b-a c=a%b:o=b==1:done=c==0goto2-:done
+a=b%c:o=c<2b=c%a*a/a:o=a<2c=a%b*b/b:o=b<2a=b%c*c/c:o=c<2b=c c=a goto2
+goto:done++
+
+//Submission to Cylon challenge Coprime Test (28)
+
+//Decide whether input numbers are coprimes or not!
+//Output 1 if they are coprimes, 0 if they are not
+
+//Fail exception: "Reached Tick limit on case 3"
+

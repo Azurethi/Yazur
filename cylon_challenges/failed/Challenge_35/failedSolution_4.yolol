@@ -1,0 +1,13 @@
+b="Jan0"c="Feb1"d="Mar2"e="Apr3"f="May4"g="Jun5"h="Jul6"i="Aug7"
+j="Sep8"k="Oct9"l="Nov10"m="Dec11"n="1st"o="2nd"p="3rd"q="th1"
+w=31u="35810"v=30.5y=2000r=n+o+p+" "s=m+l+k+j+i+h+g+f+e+d+c+b
+z=y*(:a+1+(:a<182))/v/y a=:a-z*v+2+(z>0)z+=a>32a-=u-35-z<810
+z+=(a>w+w*z%2)+(a%w<1)*(u-z<u)*(z>0)a-=w*z%2a+=a<1t=r-a%30%20-n-o-p
+:o=a+(q-(t<0)-q)+t+s-z-b-c-d-e-f-g-h-i-j-k-l-m:done=1goto4
+
+//Submission to Cylon challenge Date Formatting (35)
+
+//Convert a number of days into a date string
+
+//Fail exception: "Failed test case"
+

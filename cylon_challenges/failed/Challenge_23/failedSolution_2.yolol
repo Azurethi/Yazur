@@ -1,0 +1,11 @@
+a=:i c=""d=""b=a
+c=a%2+c a=(a-a%2)/2ifa<1thengoto3end c=a%2+c a=(a-a%2)/2goto3-(a>0)
+d=b%8+d b=(b-b%8)/8ifb<1thengoto4end d=b%8+d b=(b-b%8)/8goto4-(b>0)
+:b=c :o=d goto:done++
+
+//Submission to Cylon challenge Multiple Conversion (23)
+
+//Convert a decimal number into binary and octal at the same time.
+
+//Fail exception: "Failed test case"
+

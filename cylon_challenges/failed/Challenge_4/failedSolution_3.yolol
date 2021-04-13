@@ -1,0 +1,21 @@
+:o=0 pow=0
+c=:i---:i goto4
+:done=1goto1
+ifc=="0"thenpow++goto2end
+ifc=="1"then:o+=(10 ^ pow++)*1goto2end
+ifc=="2"then:o+=(10 ^ pow++)*2goto2end
+ifc=="3"then:o+=(10 ^ pow++)*3goto2end
+ifc=="4"then:o+=(10 ^ pow++)*4goto2end
+ifc=="5"then:o+=(10 ^ pow++)*5goto2end
+ifc=="6"then:o+=(10 ^ pow++)*6goto2end
+ifc=="7"then:o+=(10 ^ pow++)*7goto2end
+ifc=="8"then:o+=(10 ^ pow++)*8goto2end
+ifc=="9"then:o+=(10 ^ pow++)*9goto2end
+ifc=="."then:o/=(10 ^ pow)pow=0goto2end
+
+//Submission to Cylon challenge Decimal Parsing (4)
+
+//Parse the input strings into numbers
+
+//Fail exception: "Failed test case"
+

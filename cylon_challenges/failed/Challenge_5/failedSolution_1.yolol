@@ -1,0 +1,22 @@
+f1="FDB97531"f2="FEBA7632"f4="FEDC7654"
+t=0co=0i="":o=""o=""os=0j=:i
+i+=j---j i+=j---j i+=j---j i+=j---j i+=j---j i+=j---j goto3
+a=i---i c=(f1>f1-a)+2*(f2>f2-a)+4*(f4>f4-a)+8*(a>7) t=t*16+c ++co
+a=i---i c=(f1>f1-a)+2*(f2>f2-a)+4*(f4>f4-a)+8*(a>7) t=t*16+c ++co
+a=i---i c=(f1>f1-a)+2*(f2>f2-a)+4*(f4>f4-a)+8*(a>7) t=t*16+c ++co
+t=t*16^(3-co)m=(t/64)-(t/64%1)n=t-(m*64)
+f="HGFEDCBA"if m>7then f="PONMLKJI"end
+if m>15then f="XWVUTSRQ"end if m>23then f="fedcbaZY" end
+if m>31then f="nmlkjihg"end if m>39then f="vutsrqpo" end
+if m>47then f="3210zyxw"end if m>55then f="/+987654" end
+o=f---f goto12+(m--%8==0)
+:o+=o if os++%2==0then m=n goto8end
+if i!=""then t=0co=0goto4end if co==1then :o-- os-- end
+if os++%4!=0then:o+="="goto15end:done=1goto2
+
+//Submission to Cylon challenge Base Conversion (5)
+
+//Convert a string of hexadecimal into a string of base64
+
+//Fail exception: "Malformed condition"
+

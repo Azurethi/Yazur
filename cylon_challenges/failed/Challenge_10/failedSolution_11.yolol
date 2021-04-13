@@ -1,0 +1,9 @@
+i=:i:done=i>13j=i%7*i%11*i%13:o=i%2*i%3*i%5*j>0goto2-:done
+:o=((i>1)+(i<4)+(i==5)+(j<1)>1)-(i<1)goto++:done
+
+//Submission to Cylon challenge Sieve of Azurethi (10)
+
+//Counting up from 0 to 200, output a 1 to indicate if the number is prime.
+
+//Fail exception: "Failed test case"
+

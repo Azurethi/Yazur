@@ -1,0 +1,27 @@
+s=0a=:i---:i z=a+z-0ifa=="<"thengoto15+n++endgoto1
+
+
+
+
+
+
+
+
+
+
+
+
+
+u=z z=0goto1
+w=z z=0goto1
+x=z z=0goto1
+y=z z=0goto1
+ifw<u thens=u u=w w=s endifx<w thens=w w=x x=s end e/=y<x s=x x=y y=s
+ifz<y thens=y y=z z=s endifs thens=0goto19end:o=u+w+x+y+z:done=1n=0z=0
+
+//Submission to Cylon challenge Blame Nyefari (9)
+
+//Sort records in the input strings. Records are delimited by `<` and `>` characters
+
+//Fail exception: "Reached Tick limit on case 0"
+

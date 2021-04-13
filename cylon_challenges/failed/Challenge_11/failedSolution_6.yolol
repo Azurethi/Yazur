@@ -1,0 +1,9 @@
+x=:r<0:o="":done=x s+=:i goto2-x
+a=:r---:r x=:r<0ifs-a!=s thens-=a:o=a+:o end:done=x goto2-x
+
+//Submission to Cylon challenge Basic Warehouse Management (11)
+
+//Items in the warehouse are represented by letters. Each tick `:i` will specify what items are being added to the warehouse and `:r` will specify a request for items from the warehouse.  You must output which items in the request string are available in the warehouse into `:o` and then remove the items from the warehouse. 
+
+//Fail exception: "Failed test case"
+

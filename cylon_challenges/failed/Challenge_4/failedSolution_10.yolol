@@ -1,0 +1,9 @@
+c=:i---:i e/=c>=0d=(c>1)+(c>4)+(c>7)d*=3o+=(d+(c>d)-(c<d))*10^j++goto1
+if:i<0then:done=1:o=o/10^p o=0p=0j=0else p=j end goto1
+
+//Submission to Cylon challenge Decimal Parsing (4)
+
+//Parse the input strings into numbers
+
+//Fail exception: "Malformed condition"
+

@@ -1,0 +1,11 @@
+s=":09:777:666:583:1.428:562:687:214:555:642:266:736:789:1.363:937:"
+s+="157:153:444:461:1.375:062:1.166:285:1.222:411:214:052:166:307:"
+d=:a/:b:o=(atan(d)*174.533/10+(s!=s-(":"+d+":"-l)))/10^3:done=1goto3
+s+="1.076:117:2.666:571:684:"l="0.":o=1.57:done=1goto3
+
+//Submission to Cylon challenge ATAN2 (7)
+
+//Calculate Atan2. If both inputs are zero return the maximum Yolol value.
+
+//Fail exception: "Failed test case"
+

@@ -1,0 +1,10 @@
+l=1.23*:p^0.35+0.2k=1000l-=l%1m=(2*l^3+3*l^2+l)/6
+o+=:p>0a=m>:p:p-=m-a*l^2goto1+2*(:p<30)
+a=:p%14b=a%5:o=o+k*a/5000+b+k*:p/14000o=0goto++:done
+
+//Submission to Cylon challenge Santa Stacks (43)
+
+//When Santa delivers presents he always stacks them into perfect square based pyramids around the tree. Given a number of presents output how many pyramids Santa will have to construct.
+
+//Fail exception: "Failed test case"
+

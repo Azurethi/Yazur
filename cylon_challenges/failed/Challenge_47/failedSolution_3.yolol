@@ -1,0 +1,9 @@
+e=10^3
+:o=e*atan(:i/e)+((:i>0)*1+(:i<0)*-1)+((ABS:i<e)*:i/37):done++goto2
+
+//Submission to Cylon challenge Extended Precision Atan (47)
+
+//Calculate `:o = 1000 * ATAN(:i / 1000)`
+
+//Fail exception: "Failed test case"
+

@@ -1,0 +1,27 @@
+a="ABCDEFGHIJKLMNOPQRSTUVWXYZ"b="ZYXWVUTSRQPONMLKJIHGFEDCBA"c=a w=b
+k=:k if k==0then:c=:s:done++goto2end d=w---w c=c-d+d k--goto3+(k<1)
+d=w---w c=c-d+d y/=--k d=w---w c=c-d+d y/=--k goto3
+k=c-- k-=--c:c=""j=c-- c-- c-- j-=--c i=c-- c-- c-- i-=--c h=c-- 
+c-- c-- h-=--c g=c-- c-- c-- g-=--c f=c-- c-- c-- f-=--c e=c c=a w=b
+d=:s---:s goto8+2*((d>"D")+(d>"H")+(d>"L")+(d>"P")+(d>"T")+(d>"X"))
+:done++goto2
+x=e l=x---x y/=d<"D"l=x---x y/=d<"C"l=x---x y/=d<"B"l=x:c=l+:c goto6
+:c=l+:c goto6
+x=f l=x---x y/=d<"H"l=x---x y/=d<"G"l=x---x y/=d<"F"l=x:c=l+:c goto6
+:c=l+:c goto6
+x=g l=x---x y/=d<"L"l=x---x y/=d<"K"l=x---x y/=d<"J"l=x:c=l+:c goto6
+:c=l+:c goto6
+x=h l=x---x y/=d<"P"l=x---x y/=d<"O"l=x---x y/=d<"N"l=x:c=l+:c goto6
+:c=l+:c goto6
+x=i l=x---x y/=d<"T"l=x---x y/=d<"S"l=x---x y/=d<"R"l=x:c=l+:c goto6
+:c=l+:c goto6
+x=j l=x---x y/=d<"X"l=x---x y/=d<"W"l=x---x y/=d<"V"l=x:c=l+:c goto6
+:c=l+:c goto6
+x=k if d>"Y"then:c=(x---x)+:c else:c=--x+:c endgoto6
+
+//Submission to Cylon challenge Letter Salad (13)
+
+//Apply a Caesar cipher to the input strings (uppercase only)
+
+//Fail exception: "Malformed condition"
+

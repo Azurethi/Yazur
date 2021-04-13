@@ -1,0 +1,11 @@
+p=:p:o=0a=1b=0.359c=1.09k=1000:done=p<1goto2-(p<1)
+n=p^b*c*a/k*k+a+nota*--n m=n^3/3+n^2/2+n/6a=p-m>=0p-=a*m:o+=a f=p^b*c
+n=f*a/k*k+a+nota*--n m=n^3/3+n^2/2+n/6a=p-m>=0p-=a*m:o+=a x/=p/9goto2
+goto:done++
+
+//Submission to Cylon challenge Santa Stacks (43)
+
+//When Santa delivers presents he always stacks them into perfect square based pyramids around the tree. Given a number of presents output how many pyramids Santa will have to construct.
+
+//Fail exception: "Failed test case"
+

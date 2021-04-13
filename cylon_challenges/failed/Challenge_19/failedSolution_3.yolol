@@ -1,0 +1,10 @@
+f=0.5g=1/4n=f^9a=:a b=2.08*a^0.247d=0.128ifa>272thenb=3.962*a^0.133end
+b+=d*(-1^(2^b>a))b+=d*f*(-1^(2^b>a))b+=d*g*(-1^(2^b>a))d/=8goto2+(d<n)
+o=b+n*(-1^(2^b>a)):o=b+(o-b)*(ABS(2^o-a)<ABS(2^b-a)):done++goto1
+
+//Submission to Cylon challenge Log2 Approximation (19)
+
+//Calculate `Log2(:a)` as accurately as possible, more accurate answers will score higher
+
+//Fail exception: "Failed test case"
+

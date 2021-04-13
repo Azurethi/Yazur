@@ -1,0 +1,12 @@
+z="zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCB"
+i=:i o=""c="A"s=z k="0"n=1
+o+=n*(i-n!=i)i-=n n+=i-n==i o+=n*(i-n!=i)-k i-=n n+=i-n==i goto3+n/10
+o+=c-(c+(i-c!=i)-0)i-=c ifi-c!=i theno+=c i-=c else c=s---s endgoto4
+:o=i+(o-0-0-0-0-0):done++goto2
+
+//Submission to Cylon challenge Blame Graham (17)
+
+//Sort a 128 character string. These strings are long enough that a simple sorting algorithm is likely to run out of ticks!
+
+//Fail exception: "Failed test case"
+

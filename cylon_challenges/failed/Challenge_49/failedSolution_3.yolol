@@ -1,0 +1,10 @@
+:o=""b=0c=:i%10
+d=:i%10:i=:i/10-:i/10%1ifc==d thenb++else:o=""+b+c+:o c=d b=1end
+if:i==0then:o=""+b+c+:o goto++:done end goto2
+
+//Submission to Cylon challenge Look And Say (49)
+
+//Given a number output a string that "describes" the number by saying what you see. e.g. `1` is "one one" and so results in `11`.
+
+//Fail exception: "Malformed condition"
+

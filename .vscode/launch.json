@@ -4,9 +4,24 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
-
-
+        {
+            "name": "testing_cylon",
+            "program": "${workspaceFolder}/testing_cylon.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node"
+        },{
+            "name": "extract CYLON test data",
+            "program": "${workspaceFolder}/cylon_challenges/extractData.js",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node",
+            "cwd":"${workspaceFolder}/cylon_challenges"
+        },
         {
             "type": "node",
             "request": "launch",

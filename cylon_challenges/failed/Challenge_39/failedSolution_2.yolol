@@ -1,0 +1,9 @@
+c=31.414b=c/10f=b*2d=360e=44389
+a=(:i%d*c)/1800a-=(a>b)*f:o=1-a^2/2+a^4/4!-a^6/6!+a^8/e:done=1goto2
+
+//Submission to Cylon challenge Estimate Cosine (39)
+
+//Calculate the cosine of an input number
+
+//Fail exception: "Failed test case"
+

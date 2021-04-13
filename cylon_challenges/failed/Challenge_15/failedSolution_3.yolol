@@ -1,0 +1,9 @@
+n=-1^(:a*:b<0)d=((10000*:a)/:b+6*n)/10000
+:c=(atan(d)*174533+31415926*:a/abs:a*(:b<0))/10^7goto:done++
+
+//Submission to Cylon challenge Atan2 Take 2 (15)
+
+//Implement the Atan2 function. This is an approximation challenge - you will earn more points the more accurate your answer is
+
+//Fail exception: "Reached Tick limit on case 3"
+

@@ -1,0 +1,24 @@
+a=:s---:s c=17*(:s=="")p=(a>"E")+(a>"J")+(a>"O")+(a>"T")n=p*5goto2+p
+n+=:k+(a>"A")+(a>"B")+(a>"C")+(a>"D")+(a>"E")n%=26goto7+(:k>0)*(1+n/3)
+n+=:k+(a>"F")+(a>"G")+(a>"H")+(a>"I")+(a>"J")n%=26goto7+(:k>0)*(1+n/3)
+n+=:k+(a>"K")+(a>"L")+(a>"M")+(a>"N")+(a>"O")n%=26goto7+(:k>0)*(1+n/3)
+n+=:k+(a>"P")+(a>"Q")+(a>"R")+(a>"S")+(a>"T")n%=26goto7+(:k>0)*(1+n/3)
+n+=:k+(a>"U")+(a>"V")+(a>"W")+(a>"X")+(a>"Y")n%=26goto7+(:k>0)*(1+n/3)
+:c=:s+a goto++:done
+ifn<1thenv="A"elseifn<2thenv="B"else v="C"endend t=v+t gotoc
+ifn<4thenv="D"elseifn<5thenv="E"else v="F"endend t=v+t gotoc
+ifn<7thenv="G"elseifn<8thenv="H"else v="I"endend t=v+t gotoc
+ifn<10thenv="J"elseifn<11thenv="K"else v="L"endend t=v+t gotoc
+ifn<13thenv="M"elseifn<14thenv="N"else v="O"endend t=v+t gotoc
+ifn<16thenv="P"elseifn<17thenv="Q"else v="R"endend t=v+t gotoc
+ifn<19thenv="S"elseifn<20thenv="T"else v="U"endend t=v+t gotoc
+ifn<22thenv="V"elseifn<23thenv="W"else v="X"endend t=v+t gotoc
+ifn<25thenv="Y"elseifn>24thenv="Z"endend t=v+t gotoc
+:c=t:c-="0"t=""goto++:done
+
+//Submission to Cylon challenge Letter Salad (13)
+
+//Apply a Caesar cipher to the input strings (uppercase only)
+
+//Fail exception: "Failed test case"
+

@@ -1,0 +1,9 @@
+j=(ABS(:i%360-180)-90)*99.483j/=57c=j/ABSj/20
+:o=(j-j^3/59999+j^5/(12*10^9)-(j/10)^7/22763^2+c)/100goto:done++
+
+//Submission to Cylon challenge Estimate Cosine (39)
+
+//Calculate the cosine of an input number
+
+//Fail exception: "Failed test case"
+

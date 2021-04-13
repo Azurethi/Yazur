@@ -1,0 +1,9 @@
+c=1f="Fizz"b="Buzz"
+:o=c ifc%3<1then:o=f e=f+b endifc%5<1then:o=e end:done=1c++e=b goto2
+
+//Submission to Cylon challenge Fizz Buzz (20)
+
+//Implement FizzBuzz (there are no inputs)
+
+//Fail exception: "TypeError: Cannot convert undefined or null to object"
+

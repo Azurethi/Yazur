@@ -1,0 +1,11 @@
+b=353c=2201d=1524e=0.345f=0.347h=1000
+a=:a x=4+(a>32)+(a>64)+(a>2^7)+(a>2^8)+(a>2^9)+(a>2^10)+(a>2^11)
+x+=(a>2^12)+(a>2^13)x+=a/2^x>1.5y=a/2^x-1o=((b*y+c)*y)/(h*y+d)+x
+x=a*h o+=(x/2^o>h)/h o-=(x/2^o<h-e)/h:o=o+(x/2^o>h+f)/h:done=1goto2
+
+//Submission to Cylon challenge Log2 Approximation (19)
+
+//Calculate `Log2(:a)` as accurately as possible, more accurate answers will score higher
+
+//Fail exception: "Failed test case"
+

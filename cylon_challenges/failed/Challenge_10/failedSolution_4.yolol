@@ -1,0 +1,10 @@
+n=(10-8)
+if(:i<2)then:o=0goto:done++end 
+if:i<n^2then:o=1goto:done++end if:i%n++then goto 2end:o=0goto:done++
+
+//Submission to Cylon challenge Sieve of Azurethi (10)
+
+//Counting up from 0 to 200, output a 1 to indicate if the number is prime.
+
+//Fail exception: "Malformed condition"
+

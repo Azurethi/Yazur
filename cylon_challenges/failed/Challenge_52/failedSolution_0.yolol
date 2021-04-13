@@ -1,0 +1,26 @@
+a=""b=""
+c=:e---:e goto4+s+(s==1)*(c<0orc>9)
+ifb==""thengoto9 end a=b---b+"#"+a goto3
+a=0+c+a s++goto2
+a=c+("*"+a-"*0")s++goto2
+t=1+(c<"-")+(c<"+")+3*(c=="/")+2*(c<"*")+5*(c>"/")s=0
+d=0ifb>""thend=b---b end 
+ift+(t<2)+(t==4)-(t>5)>=d thenb+=d-0+t goto2end a=d+"#"+a goto7
+d=a---a e=a---a f=10*(a<0)ifd=="#"thengoto12end
+z=y y=x x=w w=v v=5*(d>4)v+=2*(d>v+1)v+=d>v v+=d>v
+t=5*(e>4)t+=2*(e>t+1)t+=e>t t+=e>t v+=10*t goto9+f
+t=5*(e>4)t+=2*(e>t+1)t+=e>t g=w w=x x=y y=z goto12+t+(e>t)
+v=v-g goto9+f
+v=v+g goto9+f
+v=v*g goto9+f
+v=v/g goto9+f
+v=v%g goto9+f
+v=v^g goto9+f
+:o=v:done=1s=0a=""b=""goto2
+
+//Submission to Cylon challenge Do It Yourself (52)
+
+//Evaluate basic Yolol expressions. Only the operators `+`, `*`, `-`, `/`, `^` and `%` will be used.
+
+//Fail exception: "Tried to interpret bracket"
+

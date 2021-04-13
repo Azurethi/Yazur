@@ -1,0 +1,10 @@
+:o+=(a+b)%d*2^n+++(a/2+b/2)%d*2^n+++(a/4+b/4)%d*2^n++a/=8b/=8goto1/m--
+x/=n>0:o+=(a+b)%d*2^n+++(a/2+b/2)%d*2^n++:done=1:o*=c
+c=1000a=:a/c b=:b/c d=2/c:o=0n=0m=4:o+=(a+b)%d*2^n++a/=2b/=2goto1
+
+//Submission to Cylon challenge XOR16 (16)
+
+//XOR two 16 bit numbers
+
+//Fail exception: "Failed test case"
+

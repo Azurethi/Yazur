@@ -1,0 +1,36 @@
+x="X"o="O"e=" "c="a01"d="a12"f="a23"g="b04"h="b15"i="b26"j="c07"
+a=:a0+:a1+:a2 b=(a-x-x)==e y=b b=(a-o-o)==e z=b k="c18"l="c29"
+a=:b0+:b1+:b2 b=(a-x-x)==e y=2*b+y*notb b=(a-o-o)==e z=2*b+z*notb
+a=:c0+:c1+:c2 b=(a-x-x)==e y=3*b+y*notb b=(a-o-o)==e z=3*b+z*notb
+a=:a0+:b0+:c0 b=(a-x-x)==e y=4*b+y*notb b=(a-o-o)==e z=4*b+z*notb
+a=:a1+:b1+:c1 b=(a-x-x)==e y=5*b+y*notb b=(a-o-o)==e z=5*b+z*notb
+a=:a2+:b2+:c2 b=(a-x-x)==e y=6*b+y*notb b=(a-o-o)==e z=6*b+z*notb
+a=:a0+:b1+:c2 b=(a-x-x)==e y=7*b+y*notb b=(a-o-o)==e z=7*b+z*notb
+a=:a2+:b1+:c0 b=(a-x-x)==e y=8*b+y*notb b=(a-o-o)==e z=8*b+z*notb
+a=(:a0==e)*(z%3==1)+2*(:a1==e)*(z%4==1)+3*(:a2==e)*((z%5==1)+(z==8))
+a+=4*(:b0==e)*((z==2)+(z==4))+5*(:b1==e)*((z%3==2)+(z==7))
+a+=6*(:b2==e)*(z%4==2)+7*(:c0==e)*((z%4==0)+(z==3))
+a+=8*(:c1==e)*((z==3)+(z==5))+9*(:c2==e)*((z%4==3)+(z==6))
+b=(:a0==e)*(y%3==1)+2*(:a1==e)*(y%4==1)+3*(:a2==e)*((y%5==1)+(y==8))
+b+=4*(:b0==e)*((y==2)+(y==4))+5*(:b1==e)*((y%3==2)+(y==7))
+b+=6*(:b2==e)*(y%4==2)+7*(:c0==e)*((y%4==0)+(y==3)-(y==0))
+b+=8*(:c1==e)*((y==3)+(y==5))+9*(:c2==e)*((y%4==3)+(y==6))
+:o=l+k+j+i+h+g+f+d+c-(b+(b<1)*a)-l-k-j-i-h-g-f-d-c
+goto:done++
+
+//Submission to Cylon challenge Noughts And Crosses (Fixed) (48)
+
+//Play the next move in a game of Noughts and Crosses.
+//
+You are "X". The inputs representing the board are each "X", "O" or " ":
+
+```:a0 :a1 :a2
+:b0 :b1 :b2
+:c0 :c1 :c2```
+
+
+Play the move which wins the game for you (first priority) or stops an immediate win by your opponent (second priority). Put into `:o` the location ("a0", "a1", "a2", "b0", "b1", "b2", "c0", "c1" or "c2") where you wish to play..
+This challenge will present inputs in fields `:a0`, `:a1`, `:a2`, `:b0`, `:b1`, `:b2`, `:c0`, `:c1` & `:c2`.
+
+//Fail exception: "Global var :a does not exist"
+

@@ -1,0 +1,10 @@
+:o=1 it=3.9
+:o=:o+it if 2^:o > :a then :o-=it it=it/2 end
+if it<2 then goto:done++ else goto 2 end
+
+//Submission to Cylon challenge Log2 Approximation (19)
+
+//Calculate `Log2(:a)` as accurately as possible, more accurate answers will score higher
+
+//Fail exception: "Failed test case"
+

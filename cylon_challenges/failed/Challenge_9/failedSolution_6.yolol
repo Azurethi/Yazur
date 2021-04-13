@@ -1,0 +1,12 @@
+x="="t="":o=0+a+b+a-((a<b)+a-1)-0+c+d+:i:done=z
+t=:i---:i+t z/=t>x t=:i---:i+t z/=t>x t=:i---:i+t goto2+(t<x)
+a=b b=c c=d d=t if3>y++%4thent=:i--:i--t-=--:i goto2+(t<x)end
+ifa>b thent=a a=b b=t endifb>c thent=b b=c c=t endgoto(z++%3<2)*5
+ifc>d thent=c c=d d=t endifd>:i thent=d d=:i:i=t endgoto4
+
+//Submission to Cylon challenge Blame Nyefari (9)
+
+//Sort records in the input strings. Records are delimited by `<` and `>` characters
+
+//Fail exception: "Malformed condition"
+

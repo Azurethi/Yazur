@@ -1,0 +1,8 @@
+s=:b<0:c=((atan(:a/:b)+180*s-360*s*(:a<0))*17453)/10^6goto:done++
+
+//Submission to Cylon challenge Atan2 Take 2 (15)
+
+//Implement the Atan2 function. This is an approximation challenge - you will earn more points the more accurate your answer is
+
+//Fail exception: "Failed test case"
+

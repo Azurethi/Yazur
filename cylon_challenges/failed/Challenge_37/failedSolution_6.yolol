@@ -1,0 +1,15 @@
+a="m"b="nm"c="in"d="ft"e="km"m=0.025n=1852o=1000p=0.305
+x=(o*(:a==e)+n*(:a==b)+m*(:a==c)+p*(:a==d))
+:o=:v*x/((:b==a)+o*(:b==e)+n*(:b==b)+m*(:b==c)+p*(:b==d)):done=1goto2
+
+//Submission to Cylon challenge Unit Conversion (37)
+
+//Convert distances expressed as meters, kilometers, inches, nautical miles or feet.
+//There are:
+ - 0.0254 meters in an inch
+ - 1852 meters in a nautical mile
+ - 1000 meters in a kilometer
+ - 0.3048 meters in a foot
+
+//Fail exception: "Failed test case"
+

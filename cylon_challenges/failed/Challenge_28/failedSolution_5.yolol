@@ -1,0 +1,11 @@
+t=:b b=:a%:b a=t t=b b=a%b a=t t=b b=a%b a=t t=b b=a%b a=t
+t=b b=a%b a=t t=b b=a%b a=t t=b b=a%b a=t t=b b=a%b a=t goto2+(b<1)
+:o=a<2goto:done++
+
+//Submission to Cylon challenge Coprime Test (28)
+
+//Decide whether input numbers are coprimes or not!
+//Output 1 if they are coprimes, 0 if they are not
+
+//Fail exception: "Reached Tick limit on case 0"
+

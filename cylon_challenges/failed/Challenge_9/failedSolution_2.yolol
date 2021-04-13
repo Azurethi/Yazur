@@ -1,0 +1,13 @@
+i=--:i m="="n=0s=i---i+">"
+j=i---i s=j+s x/=j>m j=i---i s=j+s x/=j>m j=i---i s=j+s goto2+(j<m)
+e=d d=c c=b b=a a=s i-- s=i---i+">" j=i---i s=j+s goto2+(j<m)
+k=0ifa>b thent=a a=b b=t k=1end ifb>c thent=b b=c c=t k=1end
+ifc>d thent=c c=d d=t k=1end ifd>e thent=d d=e e=t k=1end goto6-k*2
+:o=a+b+c+d+e goto++:done
+
+//Submission to Cylon challenge Blame Nyefari (9)
+
+//Sort records in the input strings. Records are delimited by `<` and `>` characters
+
+//Fail exception: "Reached Tick limit on case 0"
+

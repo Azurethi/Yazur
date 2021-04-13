@@ -1,0 +1,10 @@
+s="*"b=:b y=b---b q=:b+s z/=:a-:b==:a:o=:a+o-0o=0goto:done++
+x=:a---:a z/=x!=y o=x+o x=:a---:a z/=x!=y o=x+o goto2
+if:a+x+s-q<:a+x theno=:c+o :a-=b else o=x+o endgoto2-(:a-:b==:a)
+
+//Submission to Cylon challenge Find and Replace (34)
+
+//Replace all instances of `b` with `c` in `a`.
+
+//Fail exception: "Malformed condition"
+

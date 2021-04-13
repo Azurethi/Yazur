@@ -1,0 +1,10 @@
+if:a>a*a*a then a++goto1end c=1.38
+b=a*a*a if(b-:a>c)+(:a-b>c)then a=(:a/(a*a)+2*a)/3 goto 2 end
+:o=a:done++goto2
+
+//Submission to Cylon challenge Not As Easy As It Sounds (Cube Root) (30)
+
+//Calculate the cube root of a number
+
+//Fail exception: "Malformed condition"
+

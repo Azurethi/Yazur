@@ -1,0 +1,9 @@
+b=3.141c=3141.592d=180000e=2f=24g=6!h=8!i=10!
+:i=:i%360*c/d-b:o=-1+:i^2/e-:i^4/f+:i^6/g-:i^8/h+:i^10/i:done++goto2
+
+//Submission to Cylon challenge Estimate Cosine (39)
+
+//Calculate the cosine of an input number
+
+//Fail exception: "Failed test case"
+

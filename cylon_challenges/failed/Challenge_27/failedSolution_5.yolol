@@ -1,0 +1,11 @@
+if:i<"10"then:o=:i-"0":done=1end
+:o=""a="1"
+b=:i:i=--:i+"0"if:i<b then:o+=a end a+=a goto(--:i=="1")+3
+:o+=a:done=1
+
+//Submission to Cylon challenge Binary To Unary (27)
+
+//Convert the input binary numbers to unary. In unary, the number N would be represented as "1" repeated N times
+
+//Fail exception: "Malformed condition"
+

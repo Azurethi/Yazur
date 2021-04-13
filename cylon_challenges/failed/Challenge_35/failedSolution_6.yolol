@@ -1,0 +1,23 @@
+a=:a+1t="st"goto2+(a>31)+(a>59)+(a>90)+(a>120)+(a>151)+(a>181)+(a>212)
+m=" Jan"if (a-1)%30%20<3then goto15end:o=a+"th"+m goto:done++
+m=" Feb"a-=31if (a-1)%30%20<3then goto15end:o=a+"th"+m goto:done++
+m=" Mar"a-=59if (a-1)%30%20<3then goto15end:o=a+"th"+m goto:done++
+m=" Apr"a-=90if (a-1)%30%20<3then goto15end:o=a+"th"+m goto:done++
+m=" May"a-=120if (a-1)%30%20<3then goto15end:o=a+"th"+m goto:done++
+m=" Jun"a-=151if (a-1)%30%20<3then goto15end:o=a+"th"+m goto:done++
+m=" Jul"a-=181if (a-1)%30%20<3then goto15end:o=a+"th"+m goto:done++
+a-=212 goto10+(a>31)+(a>61)+(a>92)+(a>122)
+m=" Aug"if (a-1)%30%20<3then goto15end:o=a+"th"+m goto:done++
+m=" Sep"a-=31if (a-1)%30%20<3then goto15end:o=a+"th"+m goto:done++
+m=" Oct"a-=61if (a-1)%30%20<3then goto15end:o=a+"th"+m goto:done++
+m=" Nov"a-=92if (a-1)%30%20<3then goto15end:o=a+"th"+m goto:done++
+m=" Dec"a-=122if (a-1)%30%20<3then goto15end:o=a+"th"+m goto:done++
+:o=a+"rd"+m if(a-1)%30%20<2then:o=a+"nd"+m end
+if(a-1)%30%20<1then:o=a+"st"+m endgoto:done++
+
+//Submission to Cylon challenge Date Formatting (35)
+
+//Convert a number of days into a date string
+
+//Fail exception: "Malformed condition"
+

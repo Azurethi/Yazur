@@ -1,0 +1,23 @@
+a=" ":i-=a:i-=a:i-=a:i-=a:i-=a:i-=a:i-=a:i-=a if:i-a!=:i then goto1end
+i=:i---:i goto4+(i>2)+(i>5)+(i>8)+(i>"b")+(i>"e")+(i>"h")+(i>"k")
+:o=z-0z=""goto:done++
+o="-----"ifi=="1"theno=".----"end ifi=="2"theno="..---"end z=o+z goto2
+o="...--"ifi=="4"theno="....-"end ifi=="5"theno="....."end z=o+z goto2
+o="-...."ifi=="7"theno="--..."end ifi=="8"theno="---.."end z=o+z goto2
+o="----."ifi=="a"theno=".-"end ifi=="b"theno="-..."end z=o+z goto2
+o="-.-."ifi=="d"theno="-.."end ifi=="e"theno="."end z=o+z goto2
+o="..-."ifi=="g"theno="--."end ifi=="h"theno="...."end z=o+z goto2
+o=".."ifi=="j"theno=".---"end ifi=="k"theno="-.-"end z=o+z goto2
+goto12+(i>"n")+(i>"q")+(i>"t")+(i>"w")
+o=".-.."ifi=="m"theno="--"end ifi=="n"theno="-."end z=o+z goto2
+o="---"ifi=="p"theno=".--."end ifi=="q"theno="--.-"end z=o+z goto2
+o=".-."ifi=="s"theno="..."end ifi=="t"theno="-"end z=o+z goto2
+o="..-"ifi=="v"theno="...-"end ifi=="w"theno=".--"end z=o+z goto2
+o="-..-"ifi=="y"theno="-.--"end ifi=="z"theno="--.."end z=o+z goto2
+
+//Submission to Cylon challenge Morse Encoding (50)
+
+//Convert a string into morse code
+
+//Fail exception: "Failed test case"
+

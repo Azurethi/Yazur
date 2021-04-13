@@ -1,0 +1,17 @@
+t="@"g=">"l="<"k=g+l+t h=g+t
+y=--:i a=y---y a=y-----y+a z/=a>t a=y-----y+a y=y+t-k-t
+a=a-g-l y=y+t-h-t b=y---y b=y-----y+b z/=b>t b=y-----y+b y=y+t-k-t
+y=y+t-h-t c=y---y c=y-----y+c z/=c>t c=y-----y+c y=y+t-k-t
+a=l+a+g y=y+t-h-t d=y---y d=y-----y+d z/=d>t d=y-----y+d y=y+t-k-t
+b=l+(b-g-l)+g c=l+(c-g-l)+g d=l+(d-g-l)+g e=l+(y+t-h-t-g-l)+g
+ifa>e thenf=a a=e e=f end ifa>d thenf=a a=d d=f end z/=b>e f=b b=e e=f
+ifa>c thenf=c c=a a=f end ifb>d thenf=b b=d d=f end z/=c>e f=c c=e e=f
+ifa>b thenf=a a=b b=f end n=b m=e z/=c>d f=c c=d d=f
+ifb>c thenb=c c=n end ifd>e thene=d d=m end:o=a+b+c+d+e:done=1goto2
+
+//Submission to Cylon challenge Blame Nyefari (9)
+
+//Sort records in the input strings. Records are delimited by `<` and `>` characters
+
+//Fail exception: "Singleside token error! 13:{"type":1,"subtype":1,"value":"--","pos":{"l":1,"c":20}}"
+

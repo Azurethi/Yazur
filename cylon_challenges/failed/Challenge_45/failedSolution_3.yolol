@@ -1,0 +1,13 @@
+goto:done++
+
+//Submission to Cylon challenge PID (Take 2) (45)
+
+//Given the setpoint `s`, process variable `v`, integral error from the previous iteration `i` and error at the previous iteration `e` output an updated PID controller state into `o` (output), `i` (integral error) and `e` (error).
+//
+PID parameters are:
+```P = 0.752
+I = 0.010
+D = 0.565```
+
+//Fail exception: "Failed test case"
+

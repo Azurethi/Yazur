@@ -1,0 +1,9 @@
+a=1000*:a x=32+a/40000 x=(2*x+a/(x*x))/3 x=(2*x+a/(x*x))/3
+x=(2*x+a/(x*x))/3 x=(2*x+a/(x*x))/3:o=(2*x+a/(x*x))/30 goto:done++
+
+//Submission to Cylon challenge Not As Easy As It Sounds (Cube Root) (30)
+
+//Calculate the cube root of a number
+
+//Fail exception: "Failed test case"
+

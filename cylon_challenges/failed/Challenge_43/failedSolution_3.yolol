@@ -1,0 +1,10 @@
+:o=0:done=:p<1
+n+=j++^2m=n/(n<=:p)n+=j++^2m=n/(n<=:p)n+=j++^2m=n/(n<=:p)goto2
+:o++:p-=m:done=:p<1j=2n=1m=1goto2-:done
+
+//Submission to Cylon challenge Santa Stacks (43)
+
+//When Santa delivers presents he always stacks them into perfect square based pyramids around the tree. Given a number of presents output how many pyramids Santa will have to construct.
+
+//Fail exception: "Failed test case"
+
