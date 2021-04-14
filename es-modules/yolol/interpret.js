@@ -1,9 +1,10 @@
-export function interpret(chip) {
+'use strict';
+export default function interpreter(chip){
     if(!chip.yololBuffered) throw "Cannot interpret unbuffered line";
     try{
         var pline = chip.parsed[chip.localEnv.nextLine++ - 1];
         if(pline) pline.forEach(block=>{
-            interpretBlock(block,chip);
+            interpret(block,chip);
         })
     }catch(e){
         if(!(typeof e=='string' && e.startsWith("#HALT INTERP:"))){
@@ -12,9 +13,9 @@ export function interpret(chip) {
         }
     }
     if(chip.localEnv.nextLine>20 || chip.localEnv.nextLine<1) chip.localEnv.nextLine=1;
-}
+};
 
-export function interpretBlock(block, chip){
+function interpret(block, chip){
     switch(block.type){
         case -1: return;    //Space
         case 0: //Operator
@@ -49,7 +50,7 @@ export function interpretBlock(block, chip){
                     var rightVal = right.value;
                     if(left.subtype==1) leftVal=truncate(parseFloat(leftVal));
                     if(right.subtype==1) rightVal=truncate(parseFloat(rightVal));
-
+                    
                     if(left.subtype==0 || right.subtype==0){
                         leftVal=""+leftVal;
                         rightVal=""+rightVal;
@@ -205,7 +206,7 @@ export function interpretBlock(block, chip){
             }
         case 5: //Comment
             return;
-
+        
         default:
             throw "Unknown block type";
     }
@@ -260,7 +261,7 @@ function arith(op,left,right){
                 var rv=truncate(parseFloat(right.value));
                 value = lv + rv;
             }
-            break;
+        break;
         case '-':
             if(right.subtype!=1|| (left && left.subtype!=1)){
                 if(!left) throw "can't negate string"
@@ -277,7 +278,7 @@ function arith(op,left,right){
                 } else {
                     value = -truncate(parseFloat(right.value));
                 }
-
+               
             }
             break;
     }
