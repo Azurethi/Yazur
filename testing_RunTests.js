@@ -26,7 +26,7 @@ fs.readdir(`${__dirname}/tests`,(err, testNames)=>{
         var code = fs.readFileSync(`${__dirname}/tests/${t}/code.yolol`).toString().split("\r\n");
         var IO = require(`${__dirname}/tests/${t}/IO.json`)
         /*PERF*/ _P.setLoad.stop.push(Date.now());
-        console.log(`\t Loaded ${name} with ${test.code.length} lines & ${test.IO.out.length} test cases, running...`);
+        console.log(`\t Loaded ${t} with ${code.length} lines & ${IO.out.length} test cases, running...`);
 
         testing.run(_P, code, IO);
 
