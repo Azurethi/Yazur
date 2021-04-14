@@ -1,6 +1,7 @@
-import * as keys from './lang/keywords.json';
+"use strict";
+import keys from './lang/keywords';
 
-export function lex(line,linenumber=0) {   //TODO add more info for exceptions (eg. line number)
+export default function lex(line,linenumber=0){   //TODO add more info for exceptions (eg. line number)
     var chars = [...line];
     var lexed = [];
     proc:for(var i=0; i<chars.length; i++){
@@ -50,17 +51,17 @@ export function lex(line,linenumber=0) {   //TODO add more info for exceptions (
                         //if(lexed[lexed.length-2].type!=3 && lexed[lexed.length-2].type!=0){
                         //    lexed.push({type:0, subtype:0, value:c, pos:{l:linenumber,c:i}});
                         //} else {
-                        lexed[lexed.length-1]={type:1, subtype:c=="+"?2:1, value:c=="+"?"++":"--",pos:{l:linenumber,c:i-1}};
+                            lexed[lexed.length-1]={type:1, subtype:c=="+"?2:1, value:c=="+"?"++":"--",pos:{l:linenumber,c:i-1}};
                         //}
                     }
                 } else {
                     lexed.push({type:0, subtype:0, value:c,pos:{l:linenumber,c:i}});
-                }
+                }  
             }
         }else if([...'()'].includes(c)){
             lexed.push({type:2, subtype:c=="("?0:1, value:c,pos:{l:linenumber,c:i}})
         }else if(c=='"'){
-
+            
             var value = ""
             var pos = i;
             while(++i<chars.length && chars[i]!='"') value+=chars[i]
@@ -76,7 +77,7 @@ export function lex(line,linenumber=0) {   //TODO add more info for exceptions (
         }else if(c.match(/[:_a-zA-Z]/)){
             var value=c;
             var pos=i;
-            while(++i<chars.length && chars[i].match(/[_0-9A-Za-z]/)) value+=chars[i]
+            while(++i<chars.length && chars[i].match(/[_A-Za-z0-9]/)) value+=chars[i]  //Allow numvers after first char of vars?
             i--
             value=value.toLowerCase();  //TODO notify user when this is called (or just edit the variable on the line)
             var keywrd=keys.indexOf(value)
