@@ -15,11 +15,11 @@ const TEST_PASS_ACCURACY=10;
 
 const AX = ["x","y","z"];
 //----------------------{ Full multichip system test (based on ISANv2_dev release) }----------------------\\
-var chipFiles = fs.readdirSync(`${__dirname}\\testing\\ISAN multichip\\chips`);
+var chipFiles = fs.readdirSync(`${__dirname}/testing/ISAN multichip/chips`);
 
 var yChips = [];
 chipFiles.forEach(chipFile=>{
-    var code = fs.readFileSync(`${__dirname}\\testing\\ISAN multichip\\chips\\${chipFile}`).toString().replace(/\r\n/g,"\n").split("\n");
+    var code = fs.readFileSync(`${__dirname}/testing/ISAN multichip/chips/${chipFile}`).toString().replace(/\r\n/g,"\n").split("\n");
     var cleaned=[];
     code.forEach(line=>{
         cleaned.push(line.trim())
