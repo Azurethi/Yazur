@@ -64,6 +64,12 @@ export default function parse(lexed){
                             i,
                             /*REMOVE*/val
                         };
+                    }else if(val="then" || val=="else"){
+                        priority[i]={
+                            p:-1,
+                            i, 
+                            /*REMOVE*/val
+                        };
                     }else{
                         //priority[i]={p:l-opPrec[val]+depth+ifDepth+2*l, i, /*REMOVE*/val};
                         priority[i]={
