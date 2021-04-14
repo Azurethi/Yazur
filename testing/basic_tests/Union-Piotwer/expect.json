@@ -1,0 +1,5552 @@
+{
+    "lex": [
+        [
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "j",
+                "pos": {
+                    "l": 0,
+                    "c": 0
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 0,
+                    "c": 1
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": ":l",
+                "pos": {
+                    "l": 0,
+                    "c": 2
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 0,
+                    "c": 4
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "z",
+                "pos": {
+                    "l": 0,
+                    "c": 5
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 0,
+                    "c": 6
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": ":r",
+                "pos": {
+                    "l": 0,
+                    "c": 7
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 0,
+                    "c": 9
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "w",
+                "pos": {
+                    "l": 0,
+                    "c": 10
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 0,
+                    "c": 11
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": ":l",
+                "pos": {
+                    "l": 0,
+                    "c": 12
+                }
+            }
+        ],
+        [
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "j",
+                "pos": {
+                    "l": 1,
+                    "c": 0
+                }
+            },
+            {
+                "type": 1,
+                "subtype": 1,
+                "value": "--",
+                "pos": {
+                    "l": 1,
+                    "c": 1
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 1,
+                    "c": 3
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "n",
+                "pos": {
+                    "l": 1,
+                    "c": 4
+                }
+            },
+            {
+                "type": 1,
+                "subtype": 2,
+                "value": "++",
+                "pos": {
+                    "l": 1,
+                    "c": 5
+                }
+            }
+        ],
+        [
+            {
+                "type": 4,
+                "subtype": 12,
+                "value": "if",
+                "pos": {
+                    "l": 2,
+                    "c": 0
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 2,
+                    "c": 2
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "j",
+                "pos": {
+                    "l": 2,
+                    "c": 3
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 2,
+                "value": "!=",
+                "pos": {
+                    "l": 2,
+                    "c": 4
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 0,
+                "value": "",
+                "pos": {
+                    "l": 2,
+                    "c": 6
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 2,
+                    "c": 8
+                }
+            },
+            {
+                "type": 4,
+                "subtype": 13,
+                "value": "then",
+                "pos": {
+                    "l": 2,
+                    "c": 9
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 2,
+                    "c": 13
+                }
+            },
+            {
+                "type": 4,
+                "subtype": 9,
+                "value": "goto",
+                "pos": {
+                    "l": 2,
+                    "c": 14
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 2,
+                    "c": 18
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 1,
+                "value": "2",
+                "pos": {
+                    "l": 2,
+                    "c": 19
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 2,
+                    "c": 20
+                }
+            },
+            {
+                "type": 4,
+                "subtype": 15,
+                "value": "end",
+                "pos": {
+                    "l": 2,
+                    "c": 21
+                }
+            }
+        ],
+        [
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "z",
+                "pos": {
+                    "l": 3,
+                    "c": 0
+                }
+            },
+            {
+                "type": 1,
+                "subtype": 1,
+                "value": "--",
+                "pos": {
+                    "l": 3,
+                    "c": 1
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 3,
+                    "c": 3
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "m",
+                "pos": {
+                    "l": 3,
+                    "c": 4
+                }
+            },
+            {
+                "type": 1,
+                "subtype": 2,
+                "value": "++",
+                "pos": {
+                    "l": 3,
+                    "c": 5
+                }
+            }
+        ],
+        [
+            {
+                "type": 4,
+                "subtype": 12,
+                "value": "if",
+                "pos": {
+                    "l": 4,
+                    "c": 0
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 4,
+                    "c": 2
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "z",
+                "pos": {
+                    "l": 4,
+                    "c": 3
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 2,
+                "value": "!=",
+                "pos": {
+                    "l": 4,
+                    "c": 4
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 0,
+                "value": "",
+                "pos": {
+                    "l": 4,
+                    "c": 6
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 4,
+                    "c": 8
+                }
+            },
+            {
+                "type": 4,
+                "subtype": 13,
+                "value": "then",
+                "pos": {
+                    "l": 4,
+                    "c": 9
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 4,
+                    "c": 13
+                }
+            },
+            {
+                "type": 4,
+                "subtype": 9,
+                "value": "goto",
+                "pos": {
+                    "l": 4,
+                    "c": 14
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 4,
+                    "c": 18
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 1,
+                "value": "4",
+                "pos": {
+                    "l": 4,
+                    "c": 19
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 4,
+                    "c": 20
+                }
+            },
+            {
+                "type": 4,
+                "subtype": 15,
+                "value": "end",
+                "pos": {
+                    "l": 4,
+                    "c": 21
+                }
+            }
+        ],
+        [
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "j",
+                "pos": {
+                    "l": 5,
+                    "c": 0
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 5,
+                    "c": 1
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": ":l",
+                "pos": {
+                    "l": 5,
+                    "c": 2
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 5,
+                    "c": 4
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "k",
+                "pos": {
+                    "l": 5,
+                    "c": 5
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 5,
+                    "c": 6
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": ":l",
+                "pos": {
+                    "l": 5,
+                    "c": 7
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 5,
+                    "c": 9
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "z",
+                "pos": {
+                    "l": 5,
+                    "c": 10
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 5,
+                    "c": 11
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": ":r",
+                "pos": {
+                    "l": 5,
+                    "c": 12
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 5,
+                    "c": 14
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "x",
+                "pos": {
+                    "l": 5,
+                    "c": 15
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 5,
+                    "c": 16
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": ":r",
+                "pos": {
+                    "l": 5,
+                    "c": 17
+                }
+            }
+        ],
+        [
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "k",
+                "pos": {
+                    "l": 6,
+                    "c": 0
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 6,
+                    "c": 1
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "k",
+                "pos": {
+                    "l": 6,
+                    "c": 2
+                }
+            },
+            {
+                "type": 1,
+                "subtype": 1,
+                "value": "--",
+                "pos": {
+                    "l": 6,
+                    "c": 3
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 0,
+                "value": "-",
+                "pos": {
+                    "l": 6,
+                    "c": 5
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "k",
+                "pos": {
+                    "l": 6,
+                    "c": 6
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 6,
+                    "c": 7
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "j",
+                "pos": {
+                    "l": 6,
+                    "c": 8
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 6,
+                    "c": 9
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "j",
+                "pos": {
+                    "l": 6,
+                    "c": 10
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 0,
+                "value": "-",
+                "pos": {
+                    "l": 6,
+                    "c": 11
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "k",
+                "pos": {
+                    "l": 6,
+                    "c": 12
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 6,
+                    "c": 13
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "v",
+                "pos": {
+                    "l": 6,
+                    "c": 14
+                }
+            },
+            {
+                "type": 1,
+                "subtype": 2,
+                "value": "++",
+                "pos": {
+                    "l": 6,
+                    "c": 15
+                }
+            }
+        ],
+        [
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "b",
+                "pos": {
+                    "l": 7,
+                    "c": 0
+                }
+            },
+            {
+                "type": 1,
+                "subtype": 2,
+                "value": "++",
+                "pos": {
+                    "l": 7,
+                    "c": 1
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 7,
+                    "c": 3
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": ":l",
+                "pos": {
+                    "l": 7,
+                    "c": 4
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 7,
+                    "c": 6
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": ":l",
+                "pos": {
+                    "l": 7,
+                    "c": 7
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 0,
+                "value": "-",
+                "pos": {
+                    "l": 7,
+                    "c": 9
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "k",
+                "pos": {
+                    "l": 7,
+                    "c": 10
+                }
+            }
+        ],
+        [
+            {
+                "type": 4,
+                "subtype": 12,
+                "value": "if",
+                "pos": {
+                    "l": 8,
+                    "c": 0
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 8,
+                    "c": 2
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "b",
+                "pos": {
+                    "l": 8,
+                    "c": 3
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 2,
+                "value": "!=",
+                "pos": {
+                    "l": 8,
+                    "c": 4
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "n",
+                "pos": {
+                    "l": 8,
+                    "c": 6
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 8,
+                    "c": 7
+                }
+            },
+            {
+                "type": 4,
+                "subtype": 13,
+                "value": "then",
+                "pos": {
+                    "l": 8,
+                    "c": 8
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 8,
+                    "c": 12
+                }
+            },
+            {
+                "type": 4,
+                "subtype": 9,
+                "value": "goto",
+                "pos": {
+                    "l": 8,
+                    "c": 13
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 8,
+                    "c": 17
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 1,
+                "value": "8",
+                "pos": {
+                    "l": 8,
+                    "c": 18
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 8,
+                    "c": 19
+                }
+            },
+            {
+                "type": 4,
+                "subtype": 15,
+                "value": "end",
+                "pos": {
+                    "l": 8,
+                    "c": 20
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 8,
+                    "c": 23
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "b",
+                "pos": {
+                    "l": 8,
+                    "c": 24
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 8,
+                    "c": 25
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 1,
+                "value": "0",
+                "pos": {
+                    "l": 8,
+                    "c": 26
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 8,
+                    "c": 27
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": ":l",
+                "pos": {
+                    "l": 8,
+                    "c": 28
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 8,
+                    "c": 30
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": ":l",
+                "pos": {
+                    "l": 8,
+                    "c": 31
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 0,
+                "value": "+",
+                "pos": {
+                    "l": 8,
+                    "c": 33
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "k",
+                "pos": {
+                    "l": 8,
+                    "c": 34
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 8,
+                    "c": 35
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "k",
+                "pos": {
+                    "l": 8,
+                    "c": 36
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 8,
+                    "c": 37
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "j",
+                "pos": {
+                    "l": 8,
+                    "c": 38
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 8,
+                    "c": 39
+                }
+            },
+            {
+                "type": 4,
+                "subtype": 12,
+                "value": "if",
+                "pos": {
+                    "l": 8,
+                    "c": 40
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 8,
+                    "c": 42
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "v",
+                "pos": {
+                    "l": 8,
+                    "c": 43
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 2,
+                "value": "!=",
+                "pos": {
+                    "l": 8,
+                    "c": 44
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "n",
+                "pos": {
+                    "l": 8,
+                    "c": 46
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 8,
+                    "c": 47
+                }
+            },
+            {
+                "type": 4,
+                "subtype": 13,
+                "value": "then",
+                "pos": {
+                    "l": 8,
+                    "c": 48
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 8,
+                    "c": 52
+                }
+            },
+            {
+                "type": 4,
+                "subtype": 9,
+                "value": "goto",
+                "pos": {
+                    "l": 8,
+                    "c": 53
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 8,
+                    "c": 57
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 1,
+                "value": "7",
+                "pos": {
+                    "l": 8,
+                    "c": 58
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 8,
+                    "c": 59
+                }
+            },
+            {
+                "type": 4,
+                "subtype": 15,
+                "value": "end",
+                "pos": {
+                    "l": 8,
+                    "c": 60
+                }
+            }
+        ],
+        [
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "x",
+                "pos": {
+                    "l": 9,
+                    "c": 0
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 9,
+                    "c": 1
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "x",
+                "pos": {
+                    "l": 9,
+                    "c": 2
+                }
+            },
+            {
+                "type": 1,
+                "subtype": 1,
+                "value": "--",
+                "pos": {
+                    "l": 9,
+                    "c": 3
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 0,
+                "value": "-",
+                "pos": {
+                    "l": 9,
+                    "c": 5
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "x",
+                "pos": {
+                    "l": 9,
+                    "c": 6
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 9,
+                    "c": 7
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "z",
+                "pos": {
+                    "l": 9,
+                    "c": 8
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 9,
+                    "c": 9
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "z",
+                "pos": {
+                    "l": 9,
+                    "c": 10
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 0,
+                "value": "-",
+                "pos": {
+                    "l": 9,
+                    "c": 11
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "x",
+                "pos": {
+                    "l": 9,
+                    "c": 12
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 9,
+                    "c": 13
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "d",
+                "pos": {
+                    "l": 9,
+                    "c": 14
+                }
+            },
+            {
+                "type": 1,
+                "subtype": 2,
+                "value": "++",
+                "pos": {
+                    "l": 9,
+                    "c": 15
+                }
+            }
+        ],
+        [
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "a",
+                "pos": {
+                    "l": 10,
+                    "c": 0
+                }
+            },
+            {
+                "type": 1,
+                "subtype": 2,
+                "value": "++",
+                "pos": {
+                    "l": 10,
+                    "c": 1
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 10,
+                    "c": 3
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": ":r",
+                "pos": {
+                    "l": 10,
+                    "c": 4
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 10,
+                    "c": 6
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": ":r",
+                "pos": {
+                    "l": 10,
+                    "c": 7
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 0,
+                "value": "-",
+                "pos": {
+                    "l": 10,
+                    "c": 9
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "x",
+                "pos": {
+                    "l": 10,
+                    "c": 10
+                }
+            }
+        ],
+        [
+            {
+                "type": 4,
+                "subtype": 12,
+                "value": "if",
+                "pos": {
+                    "l": 11,
+                    "c": 0
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 11,
+                    "c": 2
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "a",
+                "pos": {
+                    "l": 11,
+                    "c": 3
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 2,
+                "value": "!=",
+                "pos": {
+                    "l": 11,
+                    "c": 4
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "m",
+                "pos": {
+                    "l": 11,
+                    "c": 6
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 11,
+                    "c": 7
+                }
+            },
+            {
+                "type": 4,
+                "subtype": 13,
+                "value": "then",
+                "pos": {
+                    "l": 11,
+                    "c": 8
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 11,
+                    "c": 12
+                }
+            },
+            {
+                "type": 4,
+                "subtype": 9,
+                "value": "goto",
+                "pos": {
+                    "l": 11,
+                    "c": 13
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 11,
+                    "c": 17
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 1,
+                "value": "11",
+                "pos": {
+                    "l": 11,
+                    "c": 18
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 11,
+                    "c": 20
+                }
+            },
+            {
+                "type": 4,
+                "subtype": 15,
+                "value": "end",
+                "pos": {
+                    "l": 11,
+                    "c": 21
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 11,
+                    "c": 24
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "a",
+                "pos": {
+                    "l": 11,
+                    "c": 25
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 11,
+                    "c": 26
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 1,
+                "value": "0",
+                "pos": {
+                    "l": 11,
+                    "c": 27
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 11,
+                    "c": 28
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": ":r",
+                "pos": {
+                    "l": 11,
+                    "c": 29
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 11,
+                    "c": 31
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": ":r",
+                "pos": {
+                    "l": 11,
+                    "c": 32
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 0,
+                "value": "+",
+                "pos": {
+                    "l": 11,
+                    "c": 34
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "x",
+                "pos": {
+                    "l": 11,
+                    "c": 35
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 11,
+                    "c": 36
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "x",
+                "pos": {
+                    "l": 11,
+                    "c": 37
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 11,
+                    "c": 38
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "z",
+                "pos": {
+                    "l": 11,
+                    "c": 39
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 11,
+                    "c": 40
+                }
+            },
+            {
+                "type": 4,
+                "subtype": 12,
+                "value": "if",
+                "pos": {
+                    "l": 11,
+                    "c": 41
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 11,
+                    "c": 43
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "d",
+                "pos": {
+                    "l": 11,
+                    "c": 44
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 2,
+                "value": "!=",
+                "pos": {
+                    "l": 11,
+                    "c": 45
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "m",
+                "pos": {
+                    "l": 11,
+                    "c": 47
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 11,
+                    "c": 48
+                }
+            },
+            {
+                "type": 4,
+                "subtype": 13,
+                "value": "then",
+                "pos": {
+                    "l": 11,
+                    "c": 49
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 11,
+                    "c": 53
+                }
+            },
+            {
+                "type": 4,
+                "subtype": 9,
+                "value": "goto",
+                "pos": {
+                    "l": 11,
+                    "c": 54
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 11,
+                    "c": 58
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 1,
+                "value": "10",
+                "pos": {
+                    "l": 11,
+                    "c": 59
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 11,
+                    "c": 61
+                }
+            },
+            {
+                "type": 4,
+                "subtype": 15,
+                "value": "end",
+                "pos": {
+                    "l": 11,
+                    "c": 62
+                }
+            }
+        ],
+        [
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "j",
+                "pos": {
+                    "l": 12,
+                    "c": 0
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 12,
+                    "c": 1
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "w",
+                "pos": {
+                    "l": 12,
+                    "c": 2
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 12,
+                    "c": 3
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "k",
+                "pos": {
+                    "l": 12,
+                    "c": 4
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 12,
+                    "c": 5
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "w",
+                "pos": {
+                    "l": 12,
+                    "c": 6
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 12,
+                    "c": 7
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "b",
+                "pos": {
+                    "l": 12,
+                    "c": 8
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 12,
+                    "c": 9
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 1,
+                "value": "0",
+                "pos": {
+                    "l": 12,
+                    "c": 10
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 12,
+                    "c": 11
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "d",
+                "pos": {
+                    "l": 12,
+                    "c": 12
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 12,
+                    "c": 13
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 1,
+                "value": "0",
+                "pos": {
+                    "l": 12,
+                    "c": 14
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 12,
+                    "c": 15
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "m",
+                "pos": {
+                    "l": 12,
+                    "c": 16
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 12,
+                    "c": 17
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 1,
+                "value": "0",
+                "pos": {
+                    "l": 12,
+                    "c": 18
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 12,
+                    "c": 19
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "n",
+                "pos": {
+                    "l": 12,
+                    "c": 20
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 12,
+                    "c": 21
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 1,
+                "value": "0",
+                "pos": {
+                    "l": 12,
+                    "c": 22
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 12,
+                    "c": 23
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "v",
+                "pos": {
+                    "l": 12,
+                    "c": 24
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 12,
+                    "c": 25
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 1,
+                "value": "0",
+                "pos": {
+                    "l": 12,
+                    "c": 26
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 12,
+                    "c": 27
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "a",
+                "pos": {
+                    "l": 12,
+                    "c": 28
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 12,
+                    "c": 29
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 1,
+                "value": "0",
+                "pos": {
+                    "l": 12,
+                    "c": 30
+                }
+            }
+        ],
+        [
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "k",
+                "pos": {
+                    "l": 13,
+                    "c": 0
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 13,
+                    "c": 1
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "k",
+                "pos": {
+                    "l": 13,
+                    "c": 2
+                }
+            },
+            {
+                "type": 1,
+                "subtype": 1,
+                "value": "--",
+                "pos": {
+                    "l": 13,
+                    "c": 3
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 0,
+                "value": "-",
+                "pos": {
+                    "l": 13,
+                    "c": 5
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "k",
+                "pos": {
+                    "l": 13,
+                    "c": 6
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 13,
+                    "c": 7
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": ":r",
+                "pos": {
+                    "l": 13,
+                    "c": 8
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 13,
+                    "c": 10
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": ":r",
+                "pos": {
+                    "l": 13,
+                    "c": 11
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 0,
+                "value": "-",
+                "pos": {
+                    "l": 13,
+                    "c": 13
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "k",
+                "pos": {
+                    "l": 13,
+                    "c": 14
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 13,
+                    "c": 15
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "j",
+                "pos": {
+                    "l": 13,
+                    "c": 16
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 13,
+                    "c": 17
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "j",
+                "pos": {
+                    "l": 13,
+                    "c": 18
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 0,
+                "value": "-",
+                "pos": {
+                    "l": 13,
+                    "c": 19
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "k",
+                "pos": {
+                    "l": 13,
+                    "c": 20
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 13,
+                    "c": 21
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "k",
+                "pos": {
+                    "l": 13,
+                    "c": 22
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 13,
+                    "c": 23
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "j",
+                "pos": {
+                    "l": 13,
+                    "c": 24
+                }
+            }
+        ],
+        [
+            {
+                "type": 4,
+                "subtype": 12,
+                "value": "if",
+                "pos": {
+                    "l": 14,
+                    "c": 0
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 14,
+                    "c": 2
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "j",
+                "pos": {
+                    "l": 14,
+                    "c": 3
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 2,
+                "value": "!=",
+                "pos": {
+                    "l": 14,
+                    "c": 4
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 0,
+                "value": "",
+                "pos": {
+                    "l": 14,
+                    "c": 6
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 14,
+                    "c": 8
+                }
+            },
+            {
+                "type": 4,
+                "subtype": 13,
+                "value": "then",
+                "pos": {
+                    "l": 14,
+                    "c": 9
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 14,
+                    "c": 13
+                }
+            },
+            {
+                "type": 4,
+                "subtype": 9,
+                "value": "goto",
+                "pos": {
+                    "l": 14,
+                    "c": 14
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 14,
+                    "c": 18
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 1,
+                "value": "14",
+                "pos": {
+                    "l": 14,
+                    "c": 19
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 14,
+                    "c": 21
+                }
+            },
+            {
+                "type": 4,
+                "subtype": 15,
+                "value": "end",
+                "pos": {
+                    "l": 14,
+                    "c": 22
+                }
+            }
+        ],
+        [
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "s",
+                "pos": {
+                    "l": 15,
+                    "c": 0
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 15,
+                    "c": 1
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": ":r",
+                "pos": {
+                    "l": 15,
+                    "c": 2
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 0,
+                "value": "+",
+                "pos": {
+                    "l": 15,
+                    "c": 4
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": ":l",
+                "pos": {
+                    "l": 15,
+                    "c": 5
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 15,
+                    "c": 7
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "o",
+                "pos": {
+                    "l": 15,
+                    "c": 8
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 15,
+                    "c": 9
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 0,
+                "value": "",
+                "pos": {
+                    "l": 15,
+                    "c": 10
+                }
+            }
+        ],
+        [
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "o",
+                "pos": {
+                    "l": 16,
+                    "c": 0
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "+=",
+                "pos": {
+                    "l": 16,
+                    "c": 1
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "s",
+                "pos": {
+                    "l": 16,
+                    "c": 3
+                }
+            },
+            {
+                "type": 1,
+                "subtype": 1,
+                "value": "--",
+                "pos": {
+                    "l": 16,
+                    "c": 4
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 0,
+                "value": "-",
+                "pos": {
+                    "l": 16,
+                    "c": 6
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "s",
+                "pos": {
+                    "l": 16,
+                    "c": 7
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 16,
+                    "c": 8
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "o",
+                "pos": {
+                    "l": 16,
+                    "c": 9
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "+=",
+                "pos": {
+                    "l": 16,
+                    "c": 10
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "s",
+                "pos": {
+                    "l": 16,
+                    "c": 12
+                }
+            },
+            {
+                "type": 1,
+                "subtype": 1,
+                "value": "--",
+                "pos": {
+                    "l": 16,
+                    "c": 13
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 0,
+                "value": "-",
+                "pos": {
+                    "l": 16,
+                    "c": 15
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "s",
+                "pos": {
+                    "l": 16,
+                    "c": 16
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 16,
+                    "c": 17
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "o",
+                "pos": {
+                    "l": 16,
+                    "c": 18
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "+=",
+                "pos": {
+                    "l": 16,
+                    "c": 19
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "s",
+                "pos": {
+                    "l": 16,
+                    "c": 21
+                }
+            },
+            {
+                "type": 1,
+                "subtype": 1,
+                "value": "--",
+                "pos": {
+                    "l": 16,
+                    "c": 22
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 0,
+                "value": "-",
+                "pos": {
+                    "l": 16,
+                    "c": 24
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "s",
+                "pos": {
+                    "l": 16,
+                    "c": 25
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 16,
+                    "c": 26
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "o",
+                "pos": {
+                    "l": 16,
+                    "c": 27
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "+=",
+                "pos": {
+                    "l": 16,
+                    "c": 28
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "s",
+                "pos": {
+                    "l": 16,
+                    "c": 30
+                }
+            },
+            {
+                "type": 1,
+                "subtype": 1,
+                "value": "--",
+                "pos": {
+                    "l": 16,
+                    "c": 31
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 0,
+                "value": "-",
+                "pos": {
+                    "l": 16,
+                    "c": 33
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "s",
+                "pos": {
+                    "l": 16,
+                    "c": 34
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 16,
+                    "c": 35
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "o",
+                "pos": {
+                    "l": 16,
+                    "c": 36
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "+=",
+                "pos": {
+                    "l": 16,
+                    "c": 37
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "s",
+                "pos": {
+                    "l": 16,
+                    "c": 39
+                }
+            },
+            {
+                "type": 1,
+                "subtype": 1,
+                "value": "--",
+                "pos": {
+                    "l": 16,
+                    "c": 40
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 0,
+                "value": "-",
+                "pos": {
+                    "l": 16,
+                    "c": 42
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "s",
+                "pos": {
+                    "l": 16,
+                    "c": 43
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 16,
+                    "c": 44
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "o",
+                "pos": {
+                    "l": 16,
+                    "c": 45
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "+=",
+                "pos": {
+                    "l": 16,
+                    "c": 46
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "s",
+                "pos": {
+                    "l": 16,
+                    "c": 48
+                }
+            },
+            {
+                "type": 1,
+                "subtype": 1,
+                "value": "--",
+                "pos": {
+                    "l": 16,
+                    "c": 49
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 0,
+                "value": "-",
+                "pos": {
+                    "l": 16,
+                    "c": 51
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "s",
+                "pos": {
+                    "l": 16,
+                    "c": 52
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 16,
+                    "c": 53
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "o",
+                "pos": {
+                    "l": 16,
+                    "c": 54
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "+=",
+                "pos": {
+                    "l": 16,
+                    "c": 55
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "s",
+                "pos": {
+                    "l": 16,
+                    "c": 57
+                }
+            },
+            {
+                "type": 1,
+                "subtype": 1,
+                "value": "--",
+                "pos": {
+                    "l": 16,
+                    "c": 58
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 0,
+                "value": "-",
+                "pos": {
+                    "l": 16,
+                    "c": 60
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "s",
+                "pos": {
+                    "l": 16,
+                    "c": 61
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 16,
+                    "c": 62
+                }
+            },
+            {
+                "type": 4,
+                "subtype": 9,
+                "value": "goto",
+                "pos": {
+                    "l": 16,
+                    "c": 63
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 16,
+                    "c": 67
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 1,
+                "value": "17",
+                "pos": {
+                    "l": 16,
+                    "c": 68
+                }
+            }
+        ],
+        [
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": ":i",
+                "pos": {
+                    "l": 17,
+                    "c": 0
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 17,
+                    "c": 2
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": "o",
+                "pos": {
+                    "l": 17,
+                    "c": 3
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 17,
+                    "c": 4
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": ":done",
+                "pos": {
+                    "l": 17,
+                    "c": 5
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 17,
+                    "c": 10
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 1,
+                "value": "1",
+                "pos": {
+                    "l": 17,
+                    "c": 11
+                }
+            }
+        ],
+        [
+            {
+                "type": 4,
+                "subtype": 9,
+                "value": "goto",
+                "pos": {
+                    "l": 18,
+                    "c": 0
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 18,
+                    "c": 4
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 1,
+                "value": "1",
+                "pos": {
+                    "l": 18,
+                    "c": 5
+                }
+            }
+        ]
+    ],
+    "parse": [
+        [
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 0,
+                    "c": 1
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "j",
+                    "pos": {
+                        "l": 0,
+                        "c": 0
+                    }
+                },
+                "right": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": ":l",
+                    "pos": {
+                        "l": 0,
+                        "c": 2
+                    }
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 0,
+                    "c": 4
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 0,
+                    "c": 6
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "z",
+                    "pos": {
+                        "l": 0,
+                        "c": 5
+                    }
+                },
+                "right": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": ":r",
+                    "pos": {
+                        "l": 0,
+                        "c": 7
+                    }
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 0,
+                    "c": 9
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 0,
+                    "c": 11
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "w",
+                    "pos": {
+                        "l": 0,
+                        "c": 10
+                    }
+                },
+                "right": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": ":l",
+                    "pos": {
+                        "l": 0,
+                        "c": 12
+                    }
+                }
+            }
+        ],
+        [
+            {
+                "type": 1,
+                "subtype": 1,
+                "value": "--",
+                "pos": {
+                    "l": 1,
+                    "c": 1
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "j",
+                    "pos": {
+                        "l": 1,
+                        "c": 0
+                    }
+                },
+                "right": false
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 1,
+                    "c": 3
+                }
+            },
+            {
+                "type": 1,
+                "subtype": 2,
+                "value": "++",
+                "pos": {
+                    "l": 1,
+                    "c": 5
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "n",
+                    "pos": {
+                        "l": 1,
+                        "c": 4
+                    }
+                },
+                "right": false
+            }
+        ],
+        [
+            {
+                "type": 4,
+                "subtype": 12,
+                "value": "if",
+                "pos": {
+                    "l": 2,
+                    "c": 0
+                },
+                "condition": {
+                    "type": 0,
+                    "subtype": 2,
+                    "value": "!=",
+                    "pos": {
+                        "l": 2,
+                        "c": 4
+                    },
+                    "left": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": "j",
+                        "pos": {
+                            "l": 2,
+                            "c": 3
+                        }
+                    },
+                    "right": {
+                        "type": 3,
+                        "subtype": 0,
+                        "value": "",
+                        "pos": {
+                            "l": 2,
+                            "c": 6
+                        }
+                    }
+                },
+                "ifTrue": [
+                    {
+                        "type": -1,
+                        "len": 1,
+                        "pos": {
+                            "l": 2,
+                            "c": 13
+                        }
+                    },
+                    {
+                        "type": 4,
+                        "subtype": 9,
+                        "value": "goto",
+                        "pos": {
+                            "l": 2,
+                            "c": 14
+                        },
+                        "left": false,
+                        "right": {
+                            "type": 3,
+                            "subtype": 1,
+                            "value": "2",
+                            "pos": {
+                                "l": 2,
+                                "c": 19
+                            }
+                        }
+                    },
+                    {
+                        "type": -1,
+                        "len": 1,
+                        "pos": {
+                            "l": 2,
+                            "c": 20
+                        }
+                    }
+                ],
+                "ifFalse": []
+            }
+        ],
+        [
+            {
+                "type": 1,
+                "subtype": 1,
+                "value": "--",
+                "pos": {
+                    "l": 3,
+                    "c": 1
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "z",
+                    "pos": {
+                        "l": 3,
+                        "c": 0
+                    }
+                },
+                "right": false
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 3,
+                    "c": 3
+                }
+            },
+            {
+                "type": 1,
+                "subtype": 2,
+                "value": "++",
+                "pos": {
+                    "l": 3,
+                    "c": 5
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "m",
+                    "pos": {
+                        "l": 3,
+                        "c": 4
+                    }
+                },
+                "right": false
+            }
+        ],
+        [
+            {
+                "type": 4,
+                "subtype": 12,
+                "value": "if",
+                "pos": {
+                    "l": 4,
+                    "c": 0
+                },
+                "condition": {
+                    "type": 0,
+                    "subtype": 2,
+                    "value": "!=",
+                    "pos": {
+                        "l": 4,
+                        "c": 4
+                    },
+                    "left": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": "z",
+                        "pos": {
+                            "l": 4,
+                            "c": 3
+                        }
+                    },
+                    "right": {
+                        "type": 3,
+                        "subtype": 0,
+                        "value": "",
+                        "pos": {
+                            "l": 4,
+                            "c": 6
+                        }
+                    }
+                },
+                "ifTrue": [
+                    {
+                        "type": -1,
+                        "len": 1,
+                        "pos": {
+                            "l": 4,
+                            "c": 13
+                        }
+                    },
+                    {
+                        "type": 4,
+                        "subtype": 9,
+                        "value": "goto",
+                        "pos": {
+                            "l": 4,
+                            "c": 14
+                        },
+                        "left": false,
+                        "right": {
+                            "type": 3,
+                            "subtype": 1,
+                            "value": "4",
+                            "pos": {
+                                "l": 4,
+                                "c": 19
+                            }
+                        }
+                    },
+                    {
+                        "type": -1,
+                        "len": 1,
+                        "pos": {
+                            "l": 4,
+                            "c": 20
+                        }
+                    }
+                ],
+                "ifFalse": []
+            }
+        ],
+        [
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 5,
+                    "c": 1
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "j",
+                    "pos": {
+                        "l": 5,
+                        "c": 0
+                    }
+                },
+                "right": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": ":l",
+                    "pos": {
+                        "l": 5,
+                        "c": 2
+                    }
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 5,
+                    "c": 4
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 5,
+                    "c": 6
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "k",
+                    "pos": {
+                        "l": 5,
+                        "c": 5
+                    }
+                },
+                "right": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": ":l",
+                    "pos": {
+                        "l": 5,
+                        "c": 7
+                    }
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 5,
+                    "c": 9
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 5,
+                    "c": 11
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "z",
+                    "pos": {
+                        "l": 5,
+                        "c": 10
+                    }
+                },
+                "right": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": ":r",
+                    "pos": {
+                        "l": 5,
+                        "c": 12
+                    }
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 5,
+                    "c": 14
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 5,
+                    "c": 16
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "x",
+                    "pos": {
+                        "l": 5,
+                        "c": 15
+                    }
+                },
+                "right": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": ":r",
+                    "pos": {
+                        "l": 5,
+                        "c": 17
+                    }
+                }
+            }
+        ],
+        [
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 6,
+                    "c": 1
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "k",
+                    "pos": {
+                        "l": 6,
+                        "c": 0
+                    }
+                },
+                "right": {
+                    "type": 0,
+                    "subtype": 0,
+                    "value": "-",
+                    "pos": {
+                        "l": 6,
+                        "c": 5
+                    },
+                    "left": {
+                        "type": 1,
+                        "subtype": 1,
+                        "value": "--",
+                        "pos": {
+                            "l": 6,
+                            "c": 3
+                        },
+                        "left": {
+                            "type": 3,
+                            "subtype": 2,
+                            "value": "k",
+                            "pos": {
+                                "l": 6,
+                                "c": 2
+                            }
+                        },
+                        "right": false
+                    },
+                    "right": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": "k",
+                        "pos": {
+                            "l": 6,
+                            "c": 6
+                        }
+                    }
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 6,
+                    "c": 7
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 6,
+                    "c": 9
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "j",
+                    "pos": {
+                        "l": 6,
+                        "c": 8
+                    }
+                },
+                "right": {
+                    "type": 0,
+                    "subtype": 0,
+                    "value": "-",
+                    "pos": {
+                        "l": 6,
+                        "c": 11
+                    },
+                    "left": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": "j",
+                        "pos": {
+                            "l": 6,
+                            "c": 10
+                        }
+                    },
+                    "right": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": "k",
+                        "pos": {
+                            "l": 6,
+                            "c": 12
+                        }
+                    }
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 6,
+                    "c": 13
+                }
+            },
+            {
+                "type": 1,
+                "subtype": 2,
+                "value": "++",
+                "pos": {
+                    "l": 6,
+                    "c": 15
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "v",
+                    "pos": {
+                        "l": 6,
+                        "c": 14
+                    }
+                },
+                "right": false
+            }
+        ],
+        [
+            {
+                "type": 1,
+                "subtype": 2,
+                "value": "++",
+                "pos": {
+                    "l": 7,
+                    "c": 1
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "b",
+                    "pos": {
+                        "l": 7,
+                        "c": 0
+                    }
+                },
+                "right": false
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 7,
+                    "c": 3
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 7,
+                    "c": 6
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": ":l",
+                    "pos": {
+                        "l": 7,
+                        "c": 4
+                    }
+                },
+                "right": {
+                    "type": 0,
+                    "subtype": 0,
+                    "value": "-",
+                    "pos": {
+                        "l": 7,
+                        "c": 9
+                    },
+                    "left": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": ":l",
+                        "pos": {
+                            "l": 7,
+                            "c": 7
+                        }
+                    },
+                    "right": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": "k",
+                        "pos": {
+                            "l": 7,
+                            "c": 10
+                        }
+                    }
+                }
+            }
+        ],
+        [
+            {
+                "type": 4,
+                "subtype": 12,
+                "value": "if",
+                "pos": {
+                    "l": 8,
+                    "c": 0
+                },
+                "condition": {
+                    "type": 0,
+                    "subtype": 2,
+                    "value": "!=",
+                    "pos": {
+                        "l": 8,
+                        "c": 4
+                    },
+                    "left": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": "b",
+                        "pos": {
+                            "l": 8,
+                            "c": 3
+                        }
+                    },
+                    "right": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": "n",
+                        "pos": {
+                            "l": 8,
+                            "c": 6
+                        }
+                    }
+                },
+                "ifTrue": [
+                    {
+                        "type": -1,
+                        "len": 1,
+                        "pos": {
+                            "l": 8,
+                            "c": 12
+                        }
+                    },
+                    {
+                        "type": 4,
+                        "subtype": 9,
+                        "value": "goto",
+                        "pos": {
+                            "l": 8,
+                            "c": 13
+                        },
+                        "left": false,
+                        "right": {
+                            "type": 3,
+                            "subtype": 1,
+                            "value": "8",
+                            "pos": {
+                                "l": 8,
+                                "c": 18
+                            }
+                        }
+                    },
+                    {
+                        "type": -1,
+                        "len": 1,
+                        "pos": {
+                            "l": 8,
+                            "c": 19
+                        }
+                    }
+                ],
+                "ifFalse": []
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 8,
+                    "c": 23
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 8,
+                    "c": 25
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "b",
+                    "pos": {
+                        "l": 8,
+                        "c": 24
+                    }
+                },
+                "right": {
+                    "type": 3,
+                    "subtype": 1,
+                    "value": "0",
+                    "pos": {
+                        "l": 8,
+                        "c": 26
+                    }
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 8,
+                    "c": 27
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 8,
+                    "c": 30
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": ":l",
+                    "pos": {
+                        "l": 8,
+                        "c": 28
+                    }
+                },
+                "right": {
+                    "type": 0,
+                    "subtype": 0,
+                    "value": "+",
+                    "pos": {
+                        "l": 8,
+                        "c": 33
+                    },
+                    "left": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": ":l",
+                        "pos": {
+                            "l": 8,
+                            "c": 31
+                        }
+                    },
+                    "right": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": "k",
+                        "pos": {
+                            "l": 8,
+                            "c": 34
+                        }
+                    }
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 8,
+                    "c": 35
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 8,
+                    "c": 37
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "k",
+                    "pos": {
+                        "l": 8,
+                        "c": 36
+                    }
+                },
+                "right": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "j",
+                    "pos": {
+                        "l": 8,
+                        "c": 38
+                    }
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 8,
+                    "c": 39
+                }
+            },
+            {
+                "type": 4,
+                "subtype": 12,
+                "value": "if",
+                "pos": {
+                    "l": 8,
+                    "c": 40
+                },
+                "condition": {
+                    "type": 0,
+                    "subtype": 2,
+                    "value": "!=",
+                    "pos": {
+                        "l": 8,
+                        "c": 44
+                    },
+                    "left": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": "v",
+                        "pos": {
+                            "l": 8,
+                            "c": 43
+                        }
+                    },
+                    "right": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": "n",
+                        "pos": {
+                            "l": 8,
+                            "c": 46
+                        }
+                    }
+                },
+                "ifTrue": [
+                    {
+                        "type": -1,
+                        "len": 1,
+                        "pos": {
+                            "l": 8,
+                            "c": 52
+                        }
+                    },
+                    {
+                        "type": 4,
+                        "subtype": 9,
+                        "value": "goto",
+                        "pos": {
+                            "l": 8,
+                            "c": 53
+                        },
+                        "left": false,
+                        "right": {
+                            "type": 3,
+                            "subtype": 1,
+                            "value": "7",
+                            "pos": {
+                                "l": 8,
+                                "c": 58
+                            }
+                        }
+                    },
+                    {
+                        "type": -1,
+                        "len": 1,
+                        "pos": {
+                            "l": 8,
+                            "c": 59
+                        }
+                    }
+                ],
+                "ifFalse": []
+            }
+        ],
+        [
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 9,
+                    "c": 1
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "x",
+                    "pos": {
+                        "l": 9,
+                        "c": 0
+                    }
+                },
+                "right": {
+                    "type": 0,
+                    "subtype": 0,
+                    "value": "-",
+                    "pos": {
+                        "l": 9,
+                        "c": 5
+                    },
+                    "left": {
+                        "type": 1,
+                        "subtype": 1,
+                        "value": "--",
+                        "pos": {
+                            "l": 9,
+                            "c": 3
+                        },
+                        "left": {
+                            "type": 3,
+                            "subtype": 2,
+                            "value": "x",
+                            "pos": {
+                                "l": 9,
+                                "c": 2
+                            }
+                        },
+                        "right": false
+                    },
+                    "right": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": "x",
+                        "pos": {
+                            "l": 9,
+                            "c": 6
+                        }
+                    }
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 9,
+                    "c": 7
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 9,
+                    "c": 9
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "z",
+                    "pos": {
+                        "l": 9,
+                        "c": 8
+                    }
+                },
+                "right": {
+                    "type": 0,
+                    "subtype": 0,
+                    "value": "-",
+                    "pos": {
+                        "l": 9,
+                        "c": 11
+                    },
+                    "left": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": "z",
+                        "pos": {
+                            "l": 9,
+                            "c": 10
+                        }
+                    },
+                    "right": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": "x",
+                        "pos": {
+                            "l": 9,
+                            "c": 12
+                        }
+                    }
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 9,
+                    "c": 13
+                }
+            },
+            {
+                "type": 1,
+                "subtype": 2,
+                "value": "++",
+                "pos": {
+                    "l": 9,
+                    "c": 15
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "d",
+                    "pos": {
+                        "l": 9,
+                        "c": 14
+                    }
+                },
+                "right": false
+            }
+        ],
+        [
+            {
+                "type": 1,
+                "subtype": 2,
+                "value": "++",
+                "pos": {
+                    "l": 10,
+                    "c": 1
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "a",
+                    "pos": {
+                        "l": 10,
+                        "c": 0
+                    }
+                },
+                "right": false
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 10,
+                    "c": 3
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 10,
+                    "c": 6
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": ":r",
+                    "pos": {
+                        "l": 10,
+                        "c": 4
+                    }
+                },
+                "right": {
+                    "type": 0,
+                    "subtype": 0,
+                    "value": "-",
+                    "pos": {
+                        "l": 10,
+                        "c": 9
+                    },
+                    "left": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": ":r",
+                        "pos": {
+                            "l": 10,
+                            "c": 7
+                        }
+                    },
+                    "right": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": "x",
+                        "pos": {
+                            "l": 10,
+                            "c": 10
+                        }
+                    }
+                }
+            }
+        ],
+        [
+            {
+                "type": 4,
+                "subtype": 12,
+                "value": "if",
+                "pos": {
+                    "l": 11,
+                    "c": 0
+                },
+                "condition": {
+                    "type": 0,
+                    "subtype": 2,
+                    "value": "!=",
+                    "pos": {
+                        "l": 11,
+                        "c": 4
+                    },
+                    "left": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": "a",
+                        "pos": {
+                            "l": 11,
+                            "c": 3
+                        }
+                    },
+                    "right": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": "m",
+                        "pos": {
+                            "l": 11,
+                            "c": 6
+                        }
+                    }
+                },
+                "ifTrue": [
+                    {
+                        "type": -1,
+                        "len": 1,
+                        "pos": {
+                            "l": 11,
+                            "c": 12
+                        }
+                    },
+                    {
+                        "type": 4,
+                        "subtype": 9,
+                        "value": "goto",
+                        "pos": {
+                            "l": 11,
+                            "c": 13
+                        },
+                        "left": false,
+                        "right": {
+                            "type": 3,
+                            "subtype": 1,
+                            "value": "11",
+                            "pos": {
+                                "l": 11,
+                                "c": 18
+                            }
+                        }
+                    },
+                    {
+                        "type": -1,
+                        "len": 1,
+                        "pos": {
+                            "l": 11,
+                            "c": 20
+                        }
+                    }
+                ],
+                "ifFalse": []
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 11,
+                    "c": 24
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 11,
+                    "c": 26
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "a",
+                    "pos": {
+                        "l": 11,
+                        "c": 25
+                    }
+                },
+                "right": {
+                    "type": 3,
+                    "subtype": 1,
+                    "value": "0",
+                    "pos": {
+                        "l": 11,
+                        "c": 27
+                    }
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 11,
+                    "c": 28
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 11,
+                    "c": 31
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": ":r",
+                    "pos": {
+                        "l": 11,
+                        "c": 29
+                    }
+                },
+                "right": {
+                    "type": 0,
+                    "subtype": 0,
+                    "value": "+",
+                    "pos": {
+                        "l": 11,
+                        "c": 34
+                    },
+                    "left": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": ":r",
+                        "pos": {
+                            "l": 11,
+                            "c": 32
+                        }
+                    },
+                    "right": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": "x",
+                        "pos": {
+                            "l": 11,
+                            "c": 35
+                        }
+                    }
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 11,
+                    "c": 36
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 11,
+                    "c": 38
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "x",
+                    "pos": {
+                        "l": 11,
+                        "c": 37
+                    }
+                },
+                "right": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "z",
+                    "pos": {
+                        "l": 11,
+                        "c": 39
+                    }
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 11,
+                    "c": 40
+                }
+            },
+            {
+                "type": 4,
+                "subtype": 12,
+                "value": "if",
+                "pos": {
+                    "l": 11,
+                    "c": 41
+                },
+                "condition": {
+                    "type": 0,
+                    "subtype": 2,
+                    "value": "!=",
+                    "pos": {
+                        "l": 11,
+                        "c": 45
+                    },
+                    "left": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": "d",
+                        "pos": {
+                            "l": 11,
+                            "c": 44
+                        }
+                    },
+                    "right": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": "m",
+                        "pos": {
+                            "l": 11,
+                            "c": 47
+                        }
+                    }
+                },
+                "ifTrue": [
+                    {
+                        "type": -1,
+                        "len": 1,
+                        "pos": {
+                            "l": 11,
+                            "c": 53
+                        }
+                    },
+                    {
+                        "type": 4,
+                        "subtype": 9,
+                        "value": "goto",
+                        "pos": {
+                            "l": 11,
+                            "c": 54
+                        },
+                        "left": false,
+                        "right": {
+                            "type": 3,
+                            "subtype": 1,
+                            "value": "10",
+                            "pos": {
+                                "l": 11,
+                                "c": 59
+                            }
+                        }
+                    },
+                    {
+                        "type": -1,
+                        "len": 1,
+                        "pos": {
+                            "l": 11,
+                            "c": 61
+                        }
+                    }
+                ],
+                "ifFalse": []
+            }
+        ],
+        [
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 12,
+                    "c": 1
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "j",
+                    "pos": {
+                        "l": 12,
+                        "c": 0
+                    }
+                },
+                "right": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "w",
+                    "pos": {
+                        "l": 12,
+                        "c": 2
+                    }
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 12,
+                    "c": 3
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 12,
+                    "c": 5
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "k",
+                    "pos": {
+                        "l": 12,
+                        "c": 4
+                    }
+                },
+                "right": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "w",
+                    "pos": {
+                        "l": 12,
+                        "c": 6
+                    }
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 12,
+                    "c": 7
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 12,
+                    "c": 9
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "b",
+                    "pos": {
+                        "l": 12,
+                        "c": 8
+                    }
+                },
+                "right": {
+                    "type": 3,
+                    "subtype": 1,
+                    "value": "0",
+                    "pos": {
+                        "l": 12,
+                        "c": 10
+                    }
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 12,
+                    "c": 11
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 12,
+                    "c": 13
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "d",
+                    "pos": {
+                        "l": 12,
+                        "c": 12
+                    }
+                },
+                "right": {
+                    "type": 3,
+                    "subtype": 1,
+                    "value": "0",
+                    "pos": {
+                        "l": 12,
+                        "c": 14
+                    }
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 12,
+                    "c": 15
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 12,
+                    "c": 17
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "m",
+                    "pos": {
+                        "l": 12,
+                        "c": 16
+                    }
+                },
+                "right": {
+                    "type": 3,
+                    "subtype": 1,
+                    "value": "0",
+                    "pos": {
+                        "l": 12,
+                        "c": 18
+                    }
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 12,
+                    "c": 19
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 12,
+                    "c": 21
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "n",
+                    "pos": {
+                        "l": 12,
+                        "c": 20
+                    }
+                },
+                "right": {
+                    "type": 3,
+                    "subtype": 1,
+                    "value": "0",
+                    "pos": {
+                        "l": 12,
+                        "c": 22
+                    }
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 12,
+                    "c": 23
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 12,
+                    "c": 25
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "v",
+                    "pos": {
+                        "l": 12,
+                        "c": 24
+                    }
+                },
+                "right": {
+                    "type": 3,
+                    "subtype": 1,
+                    "value": "0",
+                    "pos": {
+                        "l": 12,
+                        "c": 26
+                    }
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 12,
+                    "c": 27
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 12,
+                    "c": 29
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "a",
+                    "pos": {
+                        "l": 12,
+                        "c": 28
+                    }
+                },
+                "right": {
+                    "type": 3,
+                    "subtype": 1,
+                    "value": "0",
+                    "pos": {
+                        "l": 12,
+                        "c": 30
+                    }
+                }
+            }
+        ],
+        [
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 13,
+                    "c": 1
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "k",
+                    "pos": {
+                        "l": 13,
+                        "c": 0
+                    }
+                },
+                "right": {
+                    "type": 0,
+                    "subtype": 0,
+                    "value": "-",
+                    "pos": {
+                        "l": 13,
+                        "c": 5
+                    },
+                    "left": {
+                        "type": 1,
+                        "subtype": 1,
+                        "value": "--",
+                        "pos": {
+                            "l": 13,
+                            "c": 3
+                        },
+                        "left": {
+                            "type": 3,
+                            "subtype": 2,
+                            "value": "k",
+                            "pos": {
+                                "l": 13,
+                                "c": 2
+                            }
+                        },
+                        "right": false
+                    },
+                    "right": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": "k",
+                        "pos": {
+                            "l": 13,
+                            "c": 6
+                        }
+                    }
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 13,
+                    "c": 7
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 13,
+                    "c": 10
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": ":r",
+                    "pos": {
+                        "l": 13,
+                        "c": 8
+                    }
+                },
+                "right": {
+                    "type": 0,
+                    "subtype": 0,
+                    "value": "-",
+                    "pos": {
+                        "l": 13,
+                        "c": 13
+                    },
+                    "left": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": ":r",
+                        "pos": {
+                            "l": 13,
+                            "c": 11
+                        }
+                    },
+                    "right": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": "k",
+                        "pos": {
+                            "l": 13,
+                            "c": 14
+                        }
+                    }
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 13,
+                    "c": 15
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 13,
+                    "c": 17
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "j",
+                    "pos": {
+                        "l": 13,
+                        "c": 16
+                    }
+                },
+                "right": {
+                    "type": 0,
+                    "subtype": 0,
+                    "value": "-",
+                    "pos": {
+                        "l": 13,
+                        "c": 19
+                    },
+                    "left": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": "j",
+                        "pos": {
+                            "l": 13,
+                            "c": 18
+                        }
+                    },
+                    "right": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": "k",
+                        "pos": {
+                            "l": 13,
+                            "c": 20
+                        }
+                    }
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 13,
+                    "c": 21
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 13,
+                    "c": 23
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "k",
+                    "pos": {
+                        "l": 13,
+                        "c": 22
+                    }
+                },
+                "right": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "j",
+                    "pos": {
+                        "l": 13,
+                        "c": 24
+                    }
+                }
+            }
+        ],
+        [
+            {
+                "type": 4,
+                "subtype": 12,
+                "value": "if",
+                "pos": {
+                    "l": 14,
+                    "c": 0
+                },
+                "condition": {
+                    "type": 0,
+                    "subtype": 2,
+                    "value": "!=",
+                    "pos": {
+                        "l": 14,
+                        "c": 4
+                    },
+                    "left": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": "j",
+                        "pos": {
+                            "l": 14,
+                            "c": 3
+                        }
+                    },
+                    "right": {
+                        "type": 3,
+                        "subtype": 0,
+                        "value": "",
+                        "pos": {
+                            "l": 14,
+                            "c": 6
+                        }
+                    }
+                },
+                "ifTrue": [
+                    {
+                        "type": -1,
+                        "len": 1,
+                        "pos": {
+                            "l": 14,
+                            "c": 13
+                        }
+                    },
+                    {
+                        "type": 4,
+                        "subtype": 9,
+                        "value": "goto",
+                        "pos": {
+                            "l": 14,
+                            "c": 14
+                        },
+                        "left": false,
+                        "right": {
+                            "type": 3,
+                            "subtype": 1,
+                            "value": "14",
+                            "pos": {
+                                "l": 14,
+                                "c": 19
+                            }
+                        }
+                    },
+                    {
+                        "type": -1,
+                        "len": 1,
+                        "pos": {
+                            "l": 14,
+                            "c": 21
+                        }
+                    }
+                ],
+                "ifFalse": []
+            }
+        ],
+        [
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 15,
+                    "c": 1
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "s",
+                    "pos": {
+                        "l": 15,
+                        "c": 0
+                    }
+                },
+                "right": {
+                    "type": 0,
+                    "subtype": 0,
+                    "value": "+",
+                    "pos": {
+                        "l": 15,
+                        "c": 4
+                    },
+                    "left": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": ":r",
+                        "pos": {
+                            "l": 15,
+                            "c": 2
+                        }
+                    },
+                    "right": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": ":l",
+                        "pos": {
+                            "l": 15,
+                            "c": 5
+                        }
+                    }
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 15,
+                    "c": 7
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 15,
+                    "c": 9
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "o",
+                    "pos": {
+                        "l": 15,
+                        "c": 8
+                    }
+                },
+                "right": {
+                    "type": 3,
+                    "subtype": 0,
+                    "value": "",
+                    "pos": {
+                        "l": 15,
+                        "c": 10
+                    }
+                }
+            }
+        ],
+        [
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "+=",
+                "pos": {
+                    "l": 16,
+                    "c": 1
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "o",
+                    "pos": {
+                        "l": 16,
+                        "c": 0
+                    }
+                },
+                "right": {
+                    "type": 0,
+                    "subtype": 0,
+                    "value": "-",
+                    "pos": {
+                        "l": 16,
+                        "c": 6
+                    },
+                    "left": {
+                        "type": 1,
+                        "subtype": 1,
+                        "value": "--",
+                        "pos": {
+                            "l": 16,
+                            "c": 4
+                        },
+                        "left": {
+                            "type": 3,
+                            "subtype": 2,
+                            "value": "s",
+                            "pos": {
+                                "l": 16,
+                                "c": 3
+                            }
+                        },
+                        "right": false
+                    },
+                    "right": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": "s",
+                        "pos": {
+                            "l": 16,
+                            "c": 7
+                        }
+                    }
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 16,
+                    "c": 8
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "+=",
+                "pos": {
+                    "l": 16,
+                    "c": 10
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "o",
+                    "pos": {
+                        "l": 16,
+                        "c": 9
+                    }
+                },
+                "right": {
+                    "type": 0,
+                    "subtype": 0,
+                    "value": "-",
+                    "pos": {
+                        "l": 16,
+                        "c": 15
+                    },
+                    "left": {
+                        "type": 1,
+                        "subtype": 1,
+                        "value": "--",
+                        "pos": {
+                            "l": 16,
+                            "c": 13
+                        },
+                        "left": {
+                            "type": 3,
+                            "subtype": 2,
+                            "value": "s",
+                            "pos": {
+                                "l": 16,
+                                "c": 12
+                            }
+                        },
+                        "right": false
+                    },
+                    "right": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": "s",
+                        "pos": {
+                            "l": 16,
+                            "c": 16
+                        }
+                    }
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 16,
+                    "c": 17
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "+=",
+                "pos": {
+                    "l": 16,
+                    "c": 19
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "o",
+                    "pos": {
+                        "l": 16,
+                        "c": 18
+                    }
+                },
+                "right": {
+                    "type": 0,
+                    "subtype": 0,
+                    "value": "-",
+                    "pos": {
+                        "l": 16,
+                        "c": 24
+                    },
+                    "left": {
+                        "type": 1,
+                        "subtype": 1,
+                        "value": "--",
+                        "pos": {
+                            "l": 16,
+                            "c": 22
+                        },
+                        "left": {
+                            "type": 3,
+                            "subtype": 2,
+                            "value": "s",
+                            "pos": {
+                                "l": 16,
+                                "c": 21
+                            }
+                        },
+                        "right": false
+                    },
+                    "right": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": "s",
+                        "pos": {
+                            "l": 16,
+                            "c": 25
+                        }
+                    }
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 16,
+                    "c": 26
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "+=",
+                "pos": {
+                    "l": 16,
+                    "c": 28
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "o",
+                    "pos": {
+                        "l": 16,
+                        "c": 27
+                    }
+                },
+                "right": {
+                    "type": 0,
+                    "subtype": 0,
+                    "value": "-",
+                    "pos": {
+                        "l": 16,
+                        "c": 33
+                    },
+                    "left": {
+                        "type": 1,
+                        "subtype": 1,
+                        "value": "--",
+                        "pos": {
+                            "l": 16,
+                            "c": 31
+                        },
+                        "left": {
+                            "type": 3,
+                            "subtype": 2,
+                            "value": "s",
+                            "pos": {
+                                "l": 16,
+                                "c": 30
+                            }
+                        },
+                        "right": false
+                    },
+                    "right": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": "s",
+                        "pos": {
+                            "l": 16,
+                            "c": 34
+                        }
+                    }
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 16,
+                    "c": 35
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "+=",
+                "pos": {
+                    "l": 16,
+                    "c": 37
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "o",
+                    "pos": {
+                        "l": 16,
+                        "c": 36
+                    }
+                },
+                "right": {
+                    "type": 0,
+                    "subtype": 0,
+                    "value": "-",
+                    "pos": {
+                        "l": 16,
+                        "c": 42
+                    },
+                    "left": {
+                        "type": 1,
+                        "subtype": 1,
+                        "value": "--",
+                        "pos": {
+                            "l": 16,
+                            "c": 40
+                        },
+                        "left": {
+                            "type": 3,
+                            "subtype": 2,
+                            "value": "s",
+                            "pos": {
+                                "l": 16,
+                                "c": 39
+                            }
+                        },
+                        "right": false
+                    },
+                    "right": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": "s",
+                        "pos": {
+                            "l": 16,
+                            "c": 43
+                        }
+                    }
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 16,
+                    "c": 44
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "+=",
+                "pos": {
+                    "l": 16,
+                    "c": 46
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "o",
+                    "pos": {
+                        "l": 16,
+                        "c": 45
+                    }
+                },
+                "right": {
+                    "type": 0,
+                    "subtype": 0,
+                    "value": "-",
+                    "pos": {
+                        "l": 16,
+                        "c": 51
+                    },
+                    "left": {
+                        "type": 1,
+                        "subtype": 1,
+                        "value": "--",
+                        "pos": {
+                            "l": 16,
+                            "c": 49
+                        },
+                        "left": {
+                            "type": 3,
+                            "subtype": 2,
+                            "value": "s",
+                            "pos": {
+                                "l": 16,
+                                "c": 48
+                            }
+                        },
+                        "right": false
+                    },
+                    "right": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": "s",
+                        "pos": {
+                            "l": 16,
+                            "c": 52
+                        }
+                    }
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 16,
+                    "c": 53
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "+=",
+                "pos": {
+                    "l": 16,
+                    "c": 55
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "o",
+                    "pos": {
+                        "l": 16,
+                        "c": 54
+                    }
+                },
+                "right": {
+                    "type": 0,
+                    "subtype": 0,
+                    "value": "-",
+                    "pos": {
+                        "l": 16,
+                        "c": 60
+                    },
+                    "left": {
+                        "type": 1,
+                        "subtype": 1,
+                        "value": "--",
+                        "pos": {
+                            "l": 16,
+                            "c": 58
+                        },
+                        "left": {
+                            "type": 3,
+                            "subtype": 2,
+                            "value": "s",
+                            "pos": {
+                                "l": 16,
+                                "c": 57
+                            }
+                        },
+                        "right": false
+                    },
+                    "right": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": "s",
+                        "pos": {
+                            "l": 16,
+                            "c": 61
+                        }
+                    }
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 16,
+                    "c": 62
+                }
+            },
+            {
+                "type": 4,
+                "subtype": 9,
+                "value": "goto",
+                "pos": {
+                    "l": 16,
+                    "c": 63
+                },
+                "left": false,
+                "right": {
+                    "type": 3,
+                    "subtype": 1,
+                    "value": "17",
+                    "pos": {
+                        "l": 16,
+                        "c": 68
+                    }
+                }
+            }
+        ],
+        [
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 17,
+                    "c": 2
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": ":i",
+                    "pos": {
+                        "l": 17,
+                        "c": 0
+                    }
+                },
+                "right": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": "o",
+                    "pos": {
+                        "l": 17,
+                        "c": 3
+                    }
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 17,
+                    "c": 4
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 17,
+                    "c": 10
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": ":done",
+                    "pos": {
+                        "l": 17,
+                        "c": 5
+                    }
+                },
+                "right": {
+                    "type": 3,
+                    "subtype": 1,
+                    "value": "1",
+                    "pos": {
+                        "l": 17,
+                        "c": 11
+                    }
+                }
+            }
+        ],
+        [
+            {
+                "type": 4,
+                "subtype": 9,
+                "value": "goto",
+                "pos": {
+                    "l": 18,
+                    "c": 0
+                },
+                "left": false,
+                "right": {
+                    "type": 3,
+                    "subtype": 1,
+                    "value": "1",
+                    "pos": {
+                        "l": 18,
+                        "c": 5
+                    }
+                }
+            }
+        ]
+    ]
+}

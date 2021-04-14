@@ -14,7 +14,7 @@ class MemoryChip{
 
         //default specified fields to 0
         fields.forEach(field=>{
-            this.localEnv.fields[`:${field}`]={type:3, subtype:1, value:0};
+            this.localEnv.fields[`:${field.toLowerCase()}`]={type:3, subtype:1, value:0};
         });
 
         if(networkManager!=null) networkManager.register(this);
