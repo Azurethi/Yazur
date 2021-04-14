@@ -1,9 +1,0 @@
-k=0.001v=:a/:b t=atanv t+=(atan(k+v)-t)*(:a/k/:b-v/k)
-z=180*(:b<0):c=(z+t-2*z*(:a<0))/57.296goto:done++
-
-//Submission to Cylon challenge Atan2 Take 2 (15)
-
-//Implement the Atan2 function. This is an approximation challenge - you will earn more points the more accurate your answer is
-
-//Fail exception: "Failed test case"
-

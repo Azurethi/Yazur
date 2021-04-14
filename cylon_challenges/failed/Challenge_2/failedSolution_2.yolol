@@ -1,9 +1,0 @@
-:i=:l
-c=:l---:l a=:l<0:done=a if(:r==:r-c)+(:l!=:l-c)then:i-=c endgoto2-a
-
-//Submission to Cylon challenge Intersection (2)
-
-//Find the intersection of the input strings
-
-//Fail exception: "Malformed condition"
-

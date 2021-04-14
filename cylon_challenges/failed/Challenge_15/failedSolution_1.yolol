@@ -1,8 +1,0 @@
-:c=((atan(:a/:b)+(180-360*(:a<0))*(:b<0))*1745272)/10^8goto:done++
-
-//Submission to Cylon challenge Atan2 Take 2 (15)
-
-//Implement the Atan2 function. This is an approximation challenge - you will earn more points the more accurate your answer is
-
-//Fail exception: "Failed test case"
-

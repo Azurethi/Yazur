@@ -1,8 +1,0 @@
-c=1000a=:i/c b=(:i-a*c)*c:o=(c-b)*atan(a)+b*atan(a+1/c):done=1goto1
-
-//Submission to Cylon challenge Extended Precision Atan (47)
-
-//Calculate `:o = 1000 * ATAN(:i / 1000)`
-
-//Fail exception: "Failed test case"
-

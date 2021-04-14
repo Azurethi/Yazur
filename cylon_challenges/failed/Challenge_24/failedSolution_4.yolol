@@ -1,8 +1,0 @@
-x=:a/55+3x+=:a/x x+=:a/x*4x=:a/x+x/16:o=x+:a/x/4goto:done++
-
-//Submission to Cylon challenge Not As Easy As It Sounds (Sqrt) (24)
-
-//Estimate the square root of a number
-
-//Fail exception: "Failed test case"
-

@@ -1,9 +1,0 @@
-c=:i---:i i=c>1i+=c>3i+=c>5i+=c>7i*=2i+=c>i x=c>=0o+=i/x*10^p++goto1
-:o=o:done=x--o*=-x/10^p p=0goto1
-
-//Submission to Cylon challenge Decimal Parsing (4)
-
-//Parse the input strings into numbers
-
-//Fail exception: "Failed test case"
-

@@ -1,9 +1,0 @@
-a=180b=40500c=360
-:i+=90i=:i%a:o=((1-2*(:i%c>i))*4.006*i*(a-i))/(b-i*(a-i)):done=1goto2
-
-//Submission to Cylon challenge Estimate Cosine (39)
-
-//Calculate the cosine of an input number
-
-//Fail exception: "Failed test case"
-

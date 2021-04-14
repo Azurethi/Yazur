@@ -1,9 +1,0 @@
-y=j---j ify<x thenx=y endifj<0theno+=x:i-=x j=:i x=j---j endgoto1
-:o=o+x-0:done=1x--o=0j++goto1
-
-//Submission to Cylon challenge Basic Sorting (8)
-
-//Sort the characters in the input strings.
-
-//Fail exception: "Failed test case"
-

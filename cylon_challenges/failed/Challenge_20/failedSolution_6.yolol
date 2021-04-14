@@ -1,8 +1,0 @@
-a="Fizz0"b="Buzz0":o=a-++i%3-a+b-i%5-b if:o<0then:o=i endgoto:done++
-
-//Submission to Cylon challenge Fizz Buzz (20)
-
-//Implement FizzBuzz (there are no inputs)
-
-//Fail exception: "Malformed condition"
-

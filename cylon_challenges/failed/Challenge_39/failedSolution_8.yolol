@@ -1,9 +1,0 @@
-i=abs(:i%x-180)-90o=b*i+((d*i^5)/k-c*i^3)/k:o=(o+o%0.3)/300goto:done++
-b=5.234c=23.775d=29.59x=360k=x*250
-
-//Submission to Cylon challenge Estimate Cosine (39)
-
-//Calculate the cosine of an input number
-
-//Fail exception: "Failed test case"
-

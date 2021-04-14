@@ -1,9 +1,0 @@
-:o=1000*atan(:i/1000)goto:done++
-
-
-//Submission to Cylon challenge Extended Precision Atan (47)
-
-//Calculate `:o = 1000 * ATAN(:i / 1000)`
-
-//Fail exception: "Failed test case"
-

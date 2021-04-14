@@ -1,9 +1,0 @@
-i=0.5j=60k=120p=314159.265l=p/180t=10^5
-f=:a*t/:b:c=((:b<0)*:a/abs:a*p+atan(((f>0)*k-j+f)/t)*l)/t:done++goto2
-
-//Submission to Cylon challenge Atan2 Take 2 (15)
-
-//Implement the Atan2 function. This is an approximation challenge - you will earn more points the more accurate your answer is
-
-//Fail exception: "Failed test case"
-

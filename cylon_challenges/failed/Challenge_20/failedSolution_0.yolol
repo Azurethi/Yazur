@@ -1,8 +1,0 @@
-:o=++n ifn%3<1then:o="Fizz"endifn%5<1then:o=:o+"Buzz"-n endgoto:done++
-
-//Submission to Cylon challenge Fizz Buzz (20)
-
-//Implement FizzBuzz (there are no inputs)
-
-//Fail exception: "TypeError: Cannot convert undefined or null to object"
-

@@ -1,9 +1,0 @@
-a="Fizz"b="Buzz"
-:o=++i x=i%3>0y=i%5>0ifx*y<1then:o=a-(a+x-1)+b-(b+y-1)end:done++goto2
-
-//Submission to Cylon challenge Fizz Buzz (20)
-
-//Implement FizzBuzz (there are no inputs)
-
-//Fail exception: "TypeError: Cannot convert undefined or null to object"
-

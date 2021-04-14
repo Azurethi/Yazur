@@ -1,9 +1,0 @@
-a="Fizz"b="Buzz"c+=a d+=b
-:o=(++i%3<1)+a-c+(i%5<1)+b-d-1-1 if:o<0then:o=i end goto1+++:done
-
-//Submission to Cylon challenge Fizz Buzz (20)
-
-//Implement FizzBuzz (there are no inputs)
-
-//Fail exception: "Singleside token error! 31:{"type":1,"subtype":2,"value":"++","pos":{"l":1,"c":57}}"
-

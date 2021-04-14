@@ -1,8 +1,0 @@
-x=(:a/41+24)/2x=(:a/x+x)/2x=(:a/x+x)/2:o=(:a/x+x)/2goto:done++
-
-//Submission to Cylon challenge Not As Easy As It Sounds (Sqrt) (24)
-
-//Estimate the square root of a number
-
-//Fail exception: "Failed test case"
-

@@ -1,9 +1,0 @@
-e=2.719i=:i%360/57.296a=1-i^2/2+i^4/24-i^6/6!+i^8/8!-i^10/3630780
-:o=a+i^12/e^19.987-i^14/e^25.19+i^16/e^30.69goto:done++
-
-//Submission to Cylon challenge Estimate Cosine (39)
-
-//Calculate the cosine of an input number
-
-//Fail exception: "Failed test case"
-

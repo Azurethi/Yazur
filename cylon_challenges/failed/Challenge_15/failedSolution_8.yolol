@@ -1,9 +1,0 @@
-t=10d=:a/:b n=-1^(d<0)a=:a/abs:a*(:b<0)p=(n*:a*t^4)/:b%t
-:c=(a*3141592+((t-p)*atan(d)+p*atan(d+n/t^3))*1745.34)/t^6goto++:done
-
-//Submission to Cylon challenge Atan2 Take 2 (15)
-
-//Implement the Atan2 function. This is an approximation challenge - you will earn more points the more accurate your answer is
-
-//Fail exception: "Failed test case"
-

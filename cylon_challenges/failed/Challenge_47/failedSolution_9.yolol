@@ -1,8 +1,0 @@
-i=:i/1000:o=1000.006*atan i+(58.3*:i%1)/(1.007+i^2)goto++:done
-
-//Submission to Cylon challenge Extended Precision Atan (47)
-
-//Calculate `:o = 1000 * ATAN(:i / 1000)`
-
-//Fail exception: "Failed test case"
-

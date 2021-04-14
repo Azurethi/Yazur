@@ -1,9 +1,0 @@
-s=:a 
-if (s-:a/s)<0.001then :o=s :done=1 goto1 end s=(s+:a/s)/2 goto2 
-
-//Submission to Cylon challenge Not As Easy As It Sounds (Sqrt) (24)
-
-//Estimate the square root of a number
-
-//Fail exception: "Malformed condition"
-

@@ -1,9 +1,0 @@
-a=:a b=2+(a>4)+4*(a>99)+8*(a>999)c=(2*b+a/b/b)/3
-d=(2*c+a/c/c)/3e=(2*d+a/d/d)/3:o=(2*e+(10*a)/e/e/10)/3goto:done++
-
-//Submission to Cylon challenge Not As Easy As It Sounds (Cube Root) (30)
-
-//Calculate the cube root of a number
-
-//Fail exception: "Failed test case"
-

@@ -1,9 +1,0 @@
-k="13 11 7 5 2"
-:o=((k-i)<k)-2*(i==1)+i%2*i%3*i%5*i%7*i%11*i++%13>0:done++goto2
-
-//Submission to Cylon challenge Sieve of Azurethi (10)
-
-//Counting up from 0 to 200, output a 1 to indicate if the number is prime.
-
-//Fail exception: "Failed test case"
-

@@ -1,9 +1,0 @@
-b="Buzz"
-o=++c ifc%3==0theno="Fizz"endifc%5==0theno=o+b-c end:o=o:done++goto2
-
-//Submission to Cylon challenge Fizz Buzz (20)
-
-//Implement FizzBuzz (there are no inputs)
-
-//Fail exception: "TypeError: Cannot convert undefined or null to object"
-

@@ -1,8 +1,0 @@
-:px+=:dx*0.995:py+=:dy*1.014:pz+=:dz goto:done++
-
-//Submission to Cylon challenge Lost In Space (22)
-
-//Your spaceship is drifting through space at a constant velocity (starting at `0,0,0`), occasionally the spaceship will change direction. The velocity is never greater than 15m/s. Every input will tell you the current velocity _plus some random noise_. Output the current 3D position of the spaceship as accurately as possible.
-
-//Fail exception: "Failed test case"
-

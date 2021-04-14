@@ -1,8 +1,0 @@
-n=:a/2d=9+n/40e=n/d+d/2f=n/e+e/2g=n/f+f/2:o=(:a/g+g)/2goto:done++
-
-//Submission to Cylon challenge Not As Easy As It Sounds (Sqrt) (24)
-
-//Estimate the square root of a number
-
-//Fail exception: "Failed test case"
-

@@ -1,8 +1,0 @@
-:o="Fizz"if ++x%3then:o=x endifx%5<1then:o=:o+"Buzz"-x endgoto:done++
-
-//Submission to Cylon challenge Fizz Buzz (20)
-
-//Implement FizzBuzz (there are no inputs)
-
-//Fail exception: "Malformed condition"
-
