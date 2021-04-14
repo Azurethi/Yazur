@@ -1,0 +1,303 @@
+{
+    "lex": [
+        [
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": ":o",
+                "pos": {
+                    "l": 0,
+                    "c": 0
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 0,
+                    "c": 2
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": ":a",
+                "pos": {
+                    "l": 0,
+                    "c": 3
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 0,
+                "value": "-",
+                "pos": {
+                    "l": 0,
+                    "c": 5
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": ":b",
+                "pos": {
+                    "l": 0,
+                    "c": 6
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 0,
+                "value": "-",
+                "pos": {
+                    "l": 0,
+                    "c": 8
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": ":c",
+                "pos": {
+                    "l": 0,
+                    "c": 9
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 0,
+                "value": "+",
+                "pos": {
+                    "l": 0,
+                    "c": 11
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": ":d",
+                "pos": {
+                    "l": 0,
+                    "c": 12
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 0,
+                    "c": 14
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 2,
+                "value": ":done",
+                "pos": {
+                    "l": 0,
+                    "c": 15
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 0,
+                    "c": 20
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 1,
+                "value": "1",
+                "pos": {
+                    "l": 0,
+                    "c": 21
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 0,
+                    "c": 22
+                }
+            },
+            {
+                "type": 4,
+                "subtype": 9,
+                "value": "goto",
+                "pos": {
+                    "l": 0,
+                    "c": 23
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 0,
+                    "c": 27
+                }
+            },
+            {
+                "type": 3,
+                "subtype": 1,
+                "value": "1",
+                "pos": {
+                    "l": 0,
+                    "c": 28
+                }
+            }
+        ]
+    ],
+    "parse": [
+        [
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 0,
+                    "c": 2
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": ":o",
+                    "pos": {
+                        "l": 0,
+                        "c": 0
+                    }
+                },
+                "right": {
+                    "type": 0,
+                    "subtype": 0,
+                    "value": "+",
+                    "pos": {
+                        "l": 0,
+                        "c": 11
+                    },
+                    "left": {
+                        "type": 0,
+                        "subtype": 0,
+                        "value": "-",
+                        "pos": {
+                            "l": 0,
+                            "c": 8
+                        },
+                        "left": {
+                            "type": 0,
+                            "subtype": 0,
+                            "value": "-",
+                            "pos": {
+                                "l": 0,
+                                "c": 5
+                            },
+                            "left": {
+                                "type": 3,
+                                "subtype": 2,
+                                "value": ":a",
+                                "pos": {
+                                    "l": 0,
+                                    "c": 3
+                                }
+                            },
+                            "right": {
+                                "type": 3,
+                                "subtype": 2,
+                                "value": ":b",
+                                "pos": {
+                                    "l": 0,
+                                    "c": 6
+                                }
+                            }
+                        },
+                        "right": {
+                            "type": 3,
+                            "subtype": 2,
+                            "value": ":c",
+                            "pos": {
+                                "l": 0,
+                                "c": 9
+                            }
+                        }
+                    },
+                    "right": {
+                        "type": 3,
+                        "subtype": 2,
+                        "value": ":d",
+                        "pos": {
+                            "l": 0,
+                            "c": 12
+                        }
+                    }
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 0,
+                    "c": 14
+                }
+            },
+            {
+                "type": 0,
+                "subtype": 1,
+                "value": "=",
+                "pos": {
+                    "l": 0,
+                    "c": 20
+                },
+                "left": {
+                    "type": 3,
+                    "subtype": 2,
+                    "value": ":done",
+                    "pos": {
+                        "l": 0,
+                        "c": 15
+                    }
+                },
+                "right": {
+                    "type": 3,
+                    "subtype": 1,
+                    "value": "1",
+                    "pos": {
+                        "l": 0,
+                        "c": 21
+                    }
+                }
+            },
+            {
+                "type": -1,
+                "len": 1,
+                "pos": {
+                    "l": 0,
+                    "c": 22
+                }
+            },
+            {
+                "type": 4,
+                "subtype": 9,
+                "value": "goto",
+                "pos": {
+                    "l": 0,
+                    "c": 23
+                },
+                "left": false,
+                "right": {
+                    "type": 3,
+                    "subtype": 1,
+                    "value": "1",
+                    "pos": {
+                        "l": 0,
+                        "c": 28
+                    }
+                }
+            }
+        ]
+    ]
+}

@@ -76,7 +76,7 @@ module.exports=(line,linenumber=0)=>{   //TODO add more info for exceptions (eg.
         }else if(c.match(/[:_a-zA-Z]/)){
             var value=c;
             var pos=i;
-            while(++i<chars.length && chars[i].match(/[_A-Za-z]/)) value+=chars[i]  //Allow numvers after first char of vars?
+            while(++i<chars.length && chars[i].match(/[_A-Za-z0-9]/)) value+=chars[i]  //Allow numvers after first char of vars?
             i--
             value=value.toLowerCase();  //TODO notify user when this is called (or just edit the variable on the line)
             var keywrd=keys.indexOf(value)

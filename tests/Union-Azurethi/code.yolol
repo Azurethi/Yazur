@@ -1,3 +1,0 @@
-m=:l+:r :i=m
-c=m---m a=:i-c if a!=a-c then :i-=c if a-c!=a-c-c then :i-=c end end goto 2
-goto ++:done

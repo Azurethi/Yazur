@@ -5,63 +5,21 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "testing_cylon",
-            "program": "${workspaceFolder}/testing_cylon.js",
-            "request": "launch",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "type": "pwa-node"
-        },{
-            "name": "extract CYLON test data",
-            "program": "${workspaceFolder}/cylon_challenges/extractData.js",
-            "request": "launch",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "type": "pwa-node",
-            "cwd":"${workspaceFolder}/cylon_challenges"
-        },
-        {
             "type": "node",
             "request": "launch",
-            "name": "testing_ISAN",
+            "name": "yazur.test",
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\testing_ISAN.js"
+            "program": "${workspaceFolder}\\yazur.test.js"
         },{
             "type": "node",
             "request": "launch",
-            "name": "Launch Program",
+            "name": "sandbox",
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\index.js"
-        },{
-            "type": "node",
-            "request": "launch",
-            "name": "testing_parser",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "program": "${workspaceFolder}\\testing_parser.js"
-        },{
-            "type": "node",
-            "request": "launch",
-            "name": "testing_interface",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "program": "${workspaceFolder}\\testing_interface.js"
-        },{
-            "type": "node",
-            "request": "launch",
-            "name": "testing_RunTests",
-            "skipFiles": [
-                "<node_internals>/**"
-            ],
-            "program": "${workspaceFolder}\\testing_RunTests.js"
+            "program": "${workspaceFolder}\\sandbox.js"
         }
     ]
 }
