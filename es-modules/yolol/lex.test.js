@@ -1,8 +1,6 @@
 import lex from './lex'
 const testSuite = require('testing/suite');
 
-console.log(lex);
-
 //warning, setting this to true will completely invalidate this test.
 const UPDATE_EXPECTS=false;
 
