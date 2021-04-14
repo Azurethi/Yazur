@@ -1,0 +1,26 @@
+{
+  "name": "yazur",
+  "version": "2.0.0",
+  "description": "A YOLOL interpreter with multi-chip support for testing out your planned starbase ideas",
+  "main": "testing_RunTests.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Azurethi/Yazur.git"
+  },
+  "keywords": [
+    "starbase",
+    "yolol"
+  ],
+  "author": "Azurethi",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/Azurethi/Yazur/issues"
+  },
+  "homepage": "https://github.com/Azurethi/Yazur#readme"
+}
