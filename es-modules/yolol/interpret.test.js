@@ -1,4 +1,4 @@
-const interpret = require('./interpret');
+import interpret from './interpret'
 const testSuite = require('testing/suite');
 
 const TICK_LIMIT = 2000;
