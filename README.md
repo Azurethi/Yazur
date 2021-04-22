@@ -1,4 +1,4 @@
-# Yazur
+# Yazur (Codenamed Kevin)
 A YOLOL interpreter with multi-chip support for testing out your planned starbase ideas :D
 
 See this interpreter in action on Pasukaru's Yolol tutorial website, first appearing [here in chaper 2](https://yolol.info/chapter2)
