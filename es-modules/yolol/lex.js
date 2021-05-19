@@ -161,7 +161,7 @@ export function generateSpans(originalLine, lexedLine){
         lineBuilder.push(`<span class="${classes}">`);
 
         //token content
-        lineBuilder.push(originalLine.slice(usedPos, len));
+        lineBuilder.push(originalLine.slice(usedPos, usedPos+len));
         usedPos+=len
         
         //span end
