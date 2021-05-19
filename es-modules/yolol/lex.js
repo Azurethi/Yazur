@@ -92,7 +92,7 @@ export function lex(line,linenumber=0){   //TODO add more info for exceptions (e
             if(keywrd!=-1){
                 lexed.push({type:4,subtype:keywrd, value,pos:{l:linenumber,c:pos}});
             } else {
-                lexed.push({type:3, subtype:2, value,pos:{l:linenumber,c:pos}});
+                lexed.push({type:3, subtype:value.startsWith(":")?3:2, value,pos:{l:linenumber,c:pos}});
             }
         }else if(c.match(voodoo)){  //any non english words
             let value = c;
@@ -136,14 +136,15 @@ export function getClasses(lexedLineElement){
                 "operator negate"               //only when parsed
             ],
             [error,error,
-                "bracket open",
-                "bracket close"
+                "bracket_open",
+                "bracket_close"
             ],
             [error,
                 "constant string error missingend",
                 "constant string",
                 "constant number",
-                "variable"
+                "variable local",
+                "variable field"
             ],
             [
                 "keyword goto _parsed",         //only when parsed
@@ -185,7 +186,7 @@ export function generateSpans(originalLine, lexedLine){
         }
         
         //add token span
-        lineBuilder.push(`<span class="${classes}">`);
+        lineBuilder.push(`<span class="yazur ${classes}">`);
 
         //token content
         lineBuilder.push(originalLine.slice(usedPos, usedPos+len));
