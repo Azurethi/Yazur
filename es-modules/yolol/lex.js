@@ -1,7 +1,7 @@
 "use strict";
 import keys from './lang/keywords';
 
-export default function lex(line,linenumber=0){   //TODO add more info for exceptions (eg. line number)
+export function lex(line,linenumber=0){   //TODO add more info for exceptions (eg. line number)
     var chars = [...line];
     var lexed = [];
     proc:for(var i=0; i<chars.length; i++){
@@ -93,3 +93,80 @@ export default function lex(line,linenumber=0){   //TODO add more info for excep
     return lexed;
 }
 
+export function getClasses(lexedLineElement){
+    let {type, subtype} = lexedLineElement;
+
+    if(!subtype) subtype = 0;
+
+    let error = "unknown_token_class_(this_is_a_bug)"
+
+    let keywords = keys.map(keyword => `keyword ${keyword}`);
+
+    try{
+        let classes = [
+            [error,error,
+                "whitespace"
+            ],
+            [error,error,
+                "operator arithmetic",
+                "operator assignment",
+                "operator comparison"
+            ],
+            [error,error,
+                "operator factorial",
+                "operator decrement",
+                "operator increment",
+                "operator negate"               //only when parsed
+            ],
+            [error,error,
+                "bracket open",
+                "bracket close"
+            ],
+            [error,error,
+                "constant string",
+                "constant number",
+                "variable"
+            ],
+            [
+                "keyword goto _parsed",         //only when parsed
+                "keyword conditional _parsed",  //only when parsed
+
+                ...keywords
+            ]
+        ][type+1][subtype+2];
+        return classes;
+    }catch(e){
+        return error
+    }
+}
+
+//lexer.generateSpans()
+export function generateSpans(originalLine, lexedLine){
+    let lineBuilder = [];
+    let usedPos = 0;
+    lexedLine.forEach(token=>{
+        let classes = getClasses(token);
+        let pos = token.pos.c
+        let len = token.len || token.value.length;
+
+        if(token.type == 3 && token.subtype == 0) len+=2 //lexer removes quote characters
+
+        //add stuff before this token to line builder (if there is any)
+        if(usedPos!=pos){
+            lineBuilder.push(originalLine.slice(usedPos, pos));
+            usedPos=pos
+        }
+        
+        //add token span
+        lineBuilder.push(`<span class="${classes}">`);
+
+        //token content
+        lineBuilder.push(originalLine.slice(usedPos, len));
+        usedPos+=len
+        
+        //span end
+        lineBuilder.push(`</span>`);
+    });
+
+    return lineBuilder.join("");
+}
