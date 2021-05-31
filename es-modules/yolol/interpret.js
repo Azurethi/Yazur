@@ -28,7 +28,7 @@ function interpret(block, chip){
                     return arith(block.value,left,right);
                 case 1: //assignment
                     var target = block.left;
-                    if(target.type!=3 || target.subtype!=2) throw "Tried to assign non-variable"
+                    if(target.type!=3 || (target.subtype!=2 && target.subtype!=3)) throw "Tried to assign non-variable"
                     value=right;
                     switch(block.value){
                         case '+=': value = arith('+',left,right); break;
@@ -82,7 +82,7 @@ function interpret(block, chip){
                         throw "Nothing to inc/dec-rement"
                     }
 
-                    if(actingOn.type != 3 || actingOn.subtype !=2) throw "Cannot inc/dec-rement a non-variable"
+                    if(actingOn.type != 3 ||  (target.subtype!=2 && target.subtype!=3)) throw "Cannot inc/dec-rement a non-variable"
 
                     var initial=interpret(actingOn,chip);
 
