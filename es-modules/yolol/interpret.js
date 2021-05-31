@@ -131,14 +131,14 @@ function interpret(block, chip){
                 case 1: //Number
                     return block;
                 case 2: //var
+                    if(!chip.localEnv.vars[block.value])chip.localEnv.vars[block.value]={type:3, subtype:1,value:0};
+                    return chip.localEnv.vars[block.value];
+                case 3: //global
                     if(chip.localEnv.global[block.value]){
                         return chip.localEnv.global[block.value]
                     } else {
                         throw `Global var ${block.value} does not exist`
                     }
-                case 3: //global
-                    if(!chip.localEnv.vars[block.value])chip.localEnv.vars[block.value]={type:3, subtype:1,value:0};
-                    return chip.localEnv.vars[block.value];
                 default:
                     throw "Value block with unknown subtype";
             }
