@@ -19,7 +19,10 @@ function interpret(block, chip){
     switch(block.type){
         case -1: return;    //Space
         case 0: //Operator
-            var left = block.left?interpret(block.left,chip):false;
+            var left;
+            if(block.subtype!=1 && block.value!="="){
+                left = block.left?interpret(block.left,chip):false;
+            }
             var right=interpret(block.right,chip);
             switch(block.subtype){
                 case 0: //aritmetic
@@ -82,7 +85,7 @@ function interpret(block, chip){
                         throw "Nothing to inc/dec-rement"
                     }
 
-                    if(actingOn.type != 3 ||  (target.subtype!=2 && target.subtype!=3)) throw "Cannot inc/dec-rement a non-variable"
+                    if(actingOn.type != 3 ||  (actingOn.subtype!=2 && actingOn.subtype!=3)) throw "Cannot inc/dec-rement a non-variable"
 
                     var initial=interpret(actingOn,chip);
 
@@ -137,7 +140,7 @@ function interpret(block, chip){
                     if(chip.localEnv.global[block.value]){
                         return chip.localEnv.global[block.value]
                     } else {
-                        throw `Global var ${block.value} does not exist`
+                        throw `#HALT INTERP: Global var ${block.value} does not exist`
                     }
                 default:
                     throw "Value block with unknown subtype";
