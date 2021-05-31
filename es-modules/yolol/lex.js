@@ -178,6 +178,7 @@ export function generateSpans(originalLine, lexedLine){
         let len = token.len || token.value.length;
 
         if(token.type == 3 && token.subtype == 0) len+=2 //lexer removes quote characters
+        if(token.type == 3 && token.subtype == -1) len+=1
 
         //add stuff before this token to line builder (if there is any)
         if(usedPos!=pos){
