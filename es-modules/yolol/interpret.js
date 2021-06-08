@@ -20,7 +20,7 @@ function interpret(block, chip){
         case -1: return;    //Space
         case 0: //Operator
             var left;
-            if(block.subtype!=1 && block.value!="="){
+            if(!(block.subtype==1 && block.value=="=")){
                 left = block.left?interpret(block.left,chip):false;
             }
             var right=interpret(block.right,chip);
