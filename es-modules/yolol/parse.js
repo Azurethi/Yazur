@@ -70,7 +70,7 @@ export default function parse(lexed){
                             i, 
                             /*REMOVE*/val
                         };
-                    }else{
+                    }else if(val!="end"){
                         //priority[i]={p:l-opPrec[val]+depth+ifDepth+2*l, i, /*REMOVE*/val};
                         priority[i]={
                             p:(3*l-opPrec[val]+depth+ifDepth)*lexed.length-i,
@@ -279,7 +279,7 @@ function collapseTokens(ordered, i, left, right, offsets, i_noOff){
                 )
             )
         )
-    ){  
+    ){
         leftOff=li;
         overwrite=li+ri+1
     }
