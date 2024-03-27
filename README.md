@@ -1,7 +1,7 @@
 # Yazur (Codenamed Kevin)
 A YOLOL interpreter with multi-chip support for testing out your planned starbase ideas :D
 
-See this interpreter in action on Pasukaru's Yolol tutorial website, first appearing [here in chaper 2](https://yolol.info/chapter2)
+See this interpreter in action on Pasukaru's Yolol tutorial website, first appearing [here in chaper 2](https://yolol.pasu.me/chapter2)
 
 Can run serverside by requiring as a node module, or es-modules can be imported to run clientside, currently the serverside implementation has a nicer interface, abstracting away from the core lexer, parser & interpreter modules.
 
